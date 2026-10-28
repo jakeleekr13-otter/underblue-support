@@ -1,0 +1,69 @@
+:root {
+  color-scheme: light dark;
+  --bg: #071d22;
+  --text: #e9f8f5;
+  --muted: #acd0c9;
+  --head: #ffffff;
+  --accent: #69e0c7;
+  --card: #0b282f;
+  --line: #28515a;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Hiragino Sans", "PingFang SC", "Noto Sans", sans-serif;
+  line-height: 1.6;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    --bg: #f4fbf9;
+    --text: #17363b;
+    --muted: #4d6b70;
+    --head: #09282e;
+    --accent: #007d68;
+    --card: #ffffff;
+    --line: #c8dfda;
+  }
+}
+
+* { box-sizing: border-box; }
+html { background: var(--bg); color: var(--text); }
+body { max-width: 960px; margin: 0 auto; padding: 20px 16px 56px; overflow-wrap: break-word; }
+:lang(ko) { word-break: keep-all; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); }
+h1, h2 { color: var(--head); line-height: 1.2; }
+h2 { font-size: 1.5rem; margin: 0 0 12px; }
+section { margin-top: 48px; }
+
+.top { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: center; justify-content: space-between; }
+.brand { display: flex; gap: 10px; align-items: center; font-weight: 700; font-size: 1.2rem; color: var(--head); text-decoration: none; }
+.brand img { border-radius: 9px; }
+.langs { display: flex; flex-wrap: wrap; gap: 4px 14px; list-style: none; margin: 0; padding: 0; font-size: 0.9rem; }
+.langs a { color: var(--muted); text-decoration: none; }
+.langs a[aria-current="page"] { color: var(--accent); font-weight: 600; }
+
+.hero { margin-top: 40px; text-align: center; }
+.hero h1 { font-size: clamp(2rem, 6vw, 3.2rem); margin: 0 0 12px; }
+.lead { font-size: 1.15rem; color: var(--muted); max-width: 640px; margin: 0 auto 28px; }
+.hero-img { border-radius: 20px; width: 100%; }
+
+.intro p { font-size: 1.05rem; max-width: 720px; }
+
+.shots {
+  display: flex; gap: 16px; overflow-x: auto; scroll-snap-type: x mandatory;
+  list-style: none; margin: 0; padding: 0 0 12px;
+}
+.shots li { flex: 0 0 min(62vw, 240px); scroll-snap-align: start; }
+.shots img { border-radius: 18px; }
+
+.features { columns: 2 280px; column-gap: 32px; padding-left: 20px; margin: 0; }
+.features li { break-inside: avoid; margin-bottom: 6px; }
+
+.card { padding: 24px; border: 1px solid var(--line); border-radius: 20px; background: var(--card); }
+.mac img { border-radius: 12px; margin-top: 16px; }
+.cta { text-align: center; }
+.cta p { max-width: 640px; margin-left: auto; margin-right: auto; }
+.badge { display: inline-block; margin: 8px 0 16px; }
+.badge img { height: 54px; width: auto; }
+
+.muted { color: var(--muted); }
+.small { font-size: 0.85rem; }
+footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); text-align: center; }

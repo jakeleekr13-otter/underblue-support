@@ -1,5 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
-  <url><loc>https://jakeleekr13-otter.github.io/underblue-support/support/</loc></url>
-  <url><loc>https://jakeleekr13-otter.github.io/underblue-support/privacy/</loc></url>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/ko/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/ja/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/zh-hans/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/zh-hant/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://jakeleekr13-otter.github.io/underblue-support/"/>
+    <xhtml:link rel="alternate" hreflang="ko" href="https://jakeleekr13-otter.github.io/underblue-support/ko/"/>
+    <xhtml:link rel="alternate" hreflang="ja" href="https://jakeleekr13-otter.github.io/underblue-support/ja/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hans" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hans/"/>
+    <xhtml:link rel="alternate" hreflang="zh-Hant" href="https://jakeleekr13-otter.github.io/underblue-support/zh-hant/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://jakeleekr13-otter.github.io/underblue-support/es/"/>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/support/</loc>
+  </url>
+  <url>
+    <loc>https://jakeleekr13-otter.github.io/underblue-support/privacy/</loc>
+  </url>
 </urlset>
