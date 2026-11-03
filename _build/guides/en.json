@@ -1,0 +1,150 @@
+{
+  "published": "2026-11-02",
+  "ui": {
+    "guides_h": "Underwater photo and video guides",
+    "more": "More guides",
+    "cta_h": "Fix the color with UnderBlue",
+    "cta_p": "UnderBlue brings natural color back to underwater photos and videos on your iPhone. Pick a look, compare it with the original, and save. Processing stays on your iPhone, with no account and no upload. You can try it for free.",
+    "source": "Source",
+    "hero_alt": "An underwater photo before and after UnderBlue: blue on the left, natural color on the right"
+  },
+  "guides": {
+    "underwater-photo-tips": {
+      "title": "Underwater Photo Tips: Clearer, More Colorful Shots | UnderBlue",
+      "description": "Simple tips for better underwater photos with a phone or camera. Get close, use good light, avoid backscatter, and fix the color after the dive.",
+      "h1": "Underwater photo tips: clearer, more colorful shots",
+      "intro": [
+        "Water changes light. Red fades first, then orange and yellow. Distant things look soft and hazy.",
+        "These tips help you keep more color and detail. They work with a phone or a camera."
+      ],
+      "sections": [
+        {"h": "Get close, then get closer", "p": [
+          "Water between the lens and the subject takes away color and sharpness. The less water, the better the photo.",
+          "Swim closer instead of zooming in. A subject at arm's length keeps much more color than one a few meters away."]},
+        {"h": "Do not use digital zoom", "p": [
+          "Digital zoom only crops the image. All the water in front of the subject stays. On a phone, the main 1× camera usually gives the cleanest image."]},
+        {"h": "Shoot in good light", "ul": [
+          "Shallow water on a sunny day gives the most color.",
+          "Keep the sun behind you or to the side.",
+          "Around midday, more light reaches deeper water."]},
+        {"h": "Shoot slightly upward", "p": [
+          "Point the camera a little up toward the surface. You get a blue background and more contrast. Shooting down at the sand often gives a flat, gray photo."]},
+        {"h": "Avoid backscatter", "p": [
+          "Small particles in the water reflect light back to the camera. They show up as white spots or haze. This is called backscatter."], "ul": [
+          "Turn off the built-in flash.",
+          "If you use a light, hold it out to the side, away from the lens.",
+          "Do not kick up sand near your subject."]},
+        {"h": "Stay still", "ul": [
+          "Good buoyancy keeps you steady and protects the reef.",
+          "Breathe out slowly before you take the shot.",
+          "Take several shots of each subject.",
+          "Never touch or chase marine life."]},
+        {"h": "Keep the lens clean", "p": [
+          "Check the lens or the housing window for water drops, bubbles and fingerprints. Wipe it before you get in, and check it again under water."]},
+        {"h": "Blue and green photos are normal", "p": [
+          "Even with good technique, most underwater photos still look blue or green. This is normal. You can fix the color after the dive."]}
+      ],
+      "cta": "A blue photo is not lost. With UnderBlue, a few taps bring back the color of reefs and fish."
+    },
+    "underwater-video-tips": {
+      "title": "Underwater Video Tips: Smooth, Colorful Dive Videos | UnderBlue",
+      "description": "How to film better underwater video with a phone or action camera. Move slowly, hold steady, keep clips short, stay close, and fix the color after the dive.",
+      "h1": "Underwater video tips: smooth, steady and colorful",
+      "intro": [
+        "Good underwater video is calm. Slow moves, a steady frame and a close subject matter more than the camera.",
+        "These tips work for phones and action cameras."
+      ],
+      "sections": [
+        {"h": "Move slowly", "p": [
+          "Turn the camera slowly, or keep it still. Let the fish swim into the frame and out of it. Fast moves look shaky and are hard to watch."]},
+        {"h": "Hold the camera with both hands", "p": [
+          "Keep the camera close to your body. A tray or a handle helps. Get your buoyancy right first, then press record."]},
+        {"h": "Keep clips short", "p": [
+          "Record clips of about 10 to 30 seconds, with one subject each. Short clips are easier to edit and share. They also export faster."]},
+        {"h": "Stay close and shallow", "p": [
+          "Video loses color with distance and depth, just like photos. Film close to your subject. Shallow, sunny water gives the best color."]},
+        {"h": "Expect the color to jump", "p": [
+          "Phone cameras change color and brightness on their own while you film. The color can jump when you turn toward the sun or the reef. If your camera can lock the exposure, try it."]},
+        {"h": "Use lights with care", "p": [
+          "A video light brings back color close to the camera. Keep it away from the lens, and aim it a little past the subject. It then lights fewer particles, so you get less backscatter."]},
+        {"h": "Pick good settings", "ul": [
+          "4K gives you more detail to work with.",
+          "60 fps makes motion smoother and allows gentle slow motion.",
+          "Start with a full battery and plenty of free storage."]}
+      ],
+      "cta": "UnderBlue corrects the color of the whole clip and keeps it steady from frame to frame. It keeps the original frame rate, timing and sound. It can also export HDR video when the source and your iPhone support it."
+    },
+    "smartphone-underwater-housing": {
+      "title": "How to Use a Smartphone Underwater Housing | UnderBlue",
+      "description": "How to use a phone housing for snorkeling and diving. Why a water-resistant phone is not enough, how to check for leaks, and how to get better photos and videos.",
+      "h1": "How to use a smartphone underwater housing",
+      "intro": [
+        "A housing lets you take your phone snorkeling and diving. It keeps the phone dry and lets you use its camera under water.",
+        "Here is how to choose one, check it and use it safely."
+      ],
+      "sections": [
+        {"h": "A water-resistant phone is not a dive camera", "p": [
+          "iPhone 15, iPhone 16 and iPhone 17 models are rated IP68: up to 6 meters for up to 30 minutes. But Apple advises against swimming with an iPhone or putting it under water on purpose.",
+          "Water resistance can also get weaker over time. Liquid damage is not covered by the warranty. Use a housing for any swim, snorkel or dive."],
+          "src": {"label": "About splash, water, and dust resistance of iPhone 7 and later (Apple Support)", "href": "https://support.apple.com/en-us/108039"}},
+        {"h": "Choose the right housing", "ul": [
+          "Check the depth rating. It must be deeper than your planned dive.",
+          "Check that it fits your phone model and its camera layout.",
+          "Check how you control the camera. A wet touch screen does not work well. Some housings use buttons and an app. Others let you touch the screen through a cover."]},
+        {"h": "Test for leaks before every trip", "ul": [
+          "Clean the seal. Remove sand, hair and salt. Even one hair can let water in.",
+          "Close the housing without the phone. Hold it under water in a sink or a pool for a few minutes.",
+          "Dry the outside, open it and look for water. Put the phone in only when the inside stays dry."]},
+        {"h": "Prepare the phone", "ul": [
+          "Charge the battery fully and free up storage.",
+          "Take the phone out of its case if the housing needs a bare phone.",
+          "Set Auto-Lock to a longer time, so the screen stays on.",
+          "Close the housing in a cool, dry place, not in hot sun. This helps prevent fog. Add an anti-fog insert if the housing comes with one."]},
+        {"h": "In the water", "ul": [
+          "Attach a wrist strap or a lanyard.",
+          "Check for water inside during the first few minutes.",
+          "If you see water, get the housing out of the water as soon as it is safe.",
+          "Use the main 1× camera and turn off the flash. The flash can reflect inside the housing."]},
+        {"h": "After the dive", "p": [
+          "Rinse the closed housing in fresh water. Dry it before you open it. Keep it out of direct sun."]}
+      ],
+      "cta": "Photos and videos from a housing still look blue or green. Open them in UnderBlue from your photo library, or share them to UnderBlue from the Photos app."
+    },
+    "action-camera-underwater": {
+      "title": "Action Camera Underwater: What to Check Before You Dive | UnderBlue",
+      "description": "Before you take an action camera under water, check the depth rating, seals, fog, battery and color filters. Then fix the color of your footage on iPhone.",
+      "h1": "Action camera under water: what to check before you dive",
+      "intro": [
+        "Action cameras are small, tough and easy to take diving. But one small mistake can flood the camera or spoil the footage.",
+        "Check these points before you get in the water."
+      ],
+      "sections": [
+        {"h": "Know the depth rating", "p": [
+          "Many action cameras are waterproof without a case, but only to a limited depth. Check the rating in your manual. For deeper dives, use the maker's dive housing."]},
+        {"h": "Check every door and seal", "ul": [
+          "Close the battery door and the lens cover fully.",
+          "Remove sand, hair and salt from the seals. Even one hair can let water in."]},
+        {"h": "Stop fog before it starts", "p": [
+          "Fog forms when warm, damp air inside meets cold water. Close the housing in a cool, dry room. Use anti-fog inserts if you have them."]},
+        {"h": "Battery and storage", "ul": [
+          "Cold water drains the battery faster. Start with a full battery.",
+          "Start with an empty memory card, or one with plenty of space.",
+          "Turn off Wi-Fi and the front screen if you do not need them."]},
+        {"h": "Learn the buttons on land", "p": [
+          "Touch screens do not work well under water or inside a housing. Before the dive, learn how to start, stop and change modes with the buttons."]},
+        {"h": "Get closer than you think", "p": [
+          "Action cameras have a very wide lens. Fish look small and far away unless you are close. Move closer than feels natural, but never touch marine life or coral."]},
+        {"h": "Keep the camera attached to you", "p": [
+          "A small camera is easy to drop and hard to find. Use a wrist strap, a coil lanyard or a floating handle."]},
+        {"h": "Use color filters with care", "ul": [
+          "A red filter adds back red in blue water.",
+          "A magenta filter is for green water.",
+          "In very shallow water, a filter can make the image too red or pink.",
+          "Test your filter and color settings in shallow water first."]},
+        {"h": "After the dive", "p": [
+          "Rinse the camera in fresh water, and dry it before you open any door. Then copy your clips to your iPhone with the camera maker's app, into Photos or Files."]}
+      ],
+      "cta": "Action camera footage often looks blue or green. Copy the clip to your iPhone, then open it in UnderBlue from Photos or Files. UnderBlue keeps the color steady across the whole clip."
+    }
+  }
+}

@@ -1,0 +1,150 @@
+{
+  "published": "2026-11-02",
+  "ui": {
+    "guides_h": "Guías de fotografía y vídeo submarinos",
+    "more": "Más guías",
+    "cta_h": "Corrige el color con UnderBlue",
+    "cta_p": "UnderBlue devuelve el color natural a tus fotos y vídeos submarinos en el iPhone. Elige un aspecto, compáralo con el original y guarda. Todo se procesa en tu iPhone, sin cuenta y sin subir nada. Puedes probarla gratis.",
+    "source": "Fuente",
+    "hero_alt": "Una foto submarina antes y después de UnderBlue: azul a la izquierda, color natural a la derecha"
+  },
+  "guides": {
+    "underwater-photo-tips": {
+      "title": "Consejos de fotografía submarina: fotos más nítidas y con más color | UnderBlue",
+      "description": "Consejos sencillos para hacer mejores fotos submarinas con el móvil o una cámara. Acércate, aprovecha la luz, evita las partículas en suspensión y corrige el color después de la inmersión.",
+      "h1": "Consejos de fotografía submarina: fotos más nítidas y con más color",
+      "intro": [
+        "El agua cambia la luz. El rojo desaparece primero, luego el naranja y el amarillo. Lo que está lejos se ve borroso y con neblina.",
+        "Estos consejos te ayudan a conservar más color y más detalle. Sirven tanto para el móvil como para una cámara."
+      ],
+      "sections": [
+        {"h": "Acércate y luego acércate más", "p": [
+          "El agua que hay entre el objetivo y el sujeto le quita color y nitidez a la foto. Cuanta menos agua, mejor foto.",
+          "Nada hacia el sujeto en lugar de usar el zoom. Un sujeto a un brazo de distancia conserva mucho más color que uno a varios metros."]},
+        {"h": "No uses el zoom digital", "p": [
+          "El zoom digital solo recorta la imagen. Toda el agua que hay delante del sujeto sigue ahí. En el móvil, la cámara principal (1×) suele dar la imagen más limpia."]},
+        {"h": "Haz fotos con buena luz", "ul": [
+          "El agua poco profunda en un día soleado da más color.",
+          "Mantén el sol a tu espalda o a un lado.",
+          "Hacia el mediodía, llega más luz a mayor profundidad."]},
+        {"h": "Dispara ligeramente hacia arriba", "p": [
+          "Apunta la cámara un poco hacia la superficie. Conseguirás un fondo azul y más contraste. Si disparas hacia abajo, al fondo de arena, la foto suele salir plana y grisácea."]},
+        {"h": "Evita las partículas en suspensión", "p": [
+          "Las partículas pequeñas del agua devuelven la luz hacia la cámara. Se ven como puntos blancos o como neblina. A esto se le llama retrodispersión."], "ul": [
+          "Apaga el flash integrado.",
+          "Si usas una luz, sostenla hacia un lado, lejos del objetivo.",
+          "No levantes arena cerca del sujeto."]},
+        {"h": "Mantente quieto", "ul": [
+          "Una buena flotabilidad te mantiene estable y protege el arrecife.",
+          "Suelta el aire despacio antes de hacer la foto.",
+          "Haz varias fotos de cada sujeto.",
+          "No toques ni persigas nunca a la fauna marina."]},
+        {"h": "Mantén limpio el objetivo", "p": [
+          "Comprueba que el objetivo o el cristal de la carcasa no tengan gotas, burbujas ni huellas. Límpialo antes de entrar en el agua y vuelve a revisarlo bajo el agua."]},
+        {"h": "Es normal que las fotos salgan azules o verdes", "p": [
+          "Aunque tengas buena técnica, la mayoría de las fotos submarinas siguen saliendo azules o verdes. Es normal. Puedes corregir el color después de la inmersión."]}
+      ],
+      "cta": "Una foto azul no está perdida. Con UnderBlue, unos pocos toques devuelven el color a los arrecifes y a los peces."
+    },
+    "underwater-video-tips": {
+      "title": "Cómo grabar vídeo submarino: vídeos de buceo fluidos y llenos de color | UnderBlue",
+      "description": "Cómo grabar mejor vídeo submarino con el móvil o una cámara de acción. Muévete despacio, mantén el pulso firme, haz clips cortos, acércate y corrige el color después de la inmersión.",
+      "h1": "Cómo grabar vídeo submarino: fluido, estable y lleno de color",
+      "intro": [
+        "Un buen vídeo submarino es tranquilo. Los movimientos lentos, un encuadre estable y un sujeto cercano importan más que la cámara.",
+        "Estos consejos sirven para móviles y cámaras de acción."
+      ],
+      "sections": [
+        {"h": "Muévete despacio", "p": [
+          "Gira la cámara despacio o déjala quieta. Deja que los peces entren y salgan del encuadre. Los movimientos rápidos se ven temblorosos y cansan la vista."]},
+        {"h": "Sujeta la cámara con las dos manos", "p": [
+          "Mantén la cámara cerca del cuerpo. Una bandeja o un asa ayudan. Primero ajusta bien tu flotabilidad y después pulsa grabar."]},
+        {"h": "Haz clips cortos", "p": [
+          "Graba clips de unos 10 a 30 segundos, con un solo sujeto cada uno. Los clips cortos son más fáciles de editar y de compartir. Además, se exportan más rápido."]},
+        {"h": "Mantente cerca y a poca profundidad", "p": [
+          "El vídeo pierde color con la distancia y la profundidad, igual que las fotos. Graba cerca del sujeto. El agua poco profunda y soleada da el mejor color."]},
+        {"h": "Prepárate para los saltos de color", "p": [
+          "Las cámaras de los móviles cambian el color y el brillo por sí solas mientras grabas. El color puede dar un salto cuando giras hacia el sol o hacia el arrecife. Si tu cámara permite bloquear la exposición, pruébalo."]},
+        {"h": "Usa las luces con cuidado", "p": [
+          "Una luz de vídeo devuelve el color de lo que está cerca de la cámara. Colócala lejos del objetivo y apúntala un poco más allá del sujeto. Así ilumina menos partículas y obtienes menos retrodispersión."]},
+        {"h": "Elige buenos ajustes", "ul": [
+          "4K te da más detalle para trabajar.",
+          "60 fps hace el movimiento más fluido y permite una cámara lenta suave.",
+          "Empieza con la batería llena y con mucho espacio libre."]}
+      ],
+      "cta": "UnderBlue corrige el color de todo el clip y lo mantiene estable de un fotograma a otro. Conserva la frecuencia de fotogramas, la sincronización y el audio originales. También puede exportar vídeo HDR si el vídeo original y tu iPhone lo admiten."
+    },
+    "smartphone-underwater-housing": {
+      "title": "Cómo usar una carcasa submarina para móvil | UnderBlue",
+      "description": "Cómo usar una carcasa submarina para móvil en snorkel y buceo. Por qué no basta con un móvil resistente al agua, cómo comprobar que no hay fugas y cómo conseguir mejores fotos y vídeos.",
+      "h1": "Cómo usar una carcasa submarina para móvil",
+      "intro": [
+        "Una carcasa te permite llevarte el móvil a hacer snorkel o a bucear. Lo mantiene seco y te deja usar su cámara bajo el agua.",
+        "Aquí tienes cómo elegir una, revisarla y usarla con seguridad."
+      ],
+      "sections": [
+        {"h": "Un móvil resistente al agua no es una cámara de buceo", "p": [
+          "Los modelos iPhone 15, iPhone 16 y iPhone 17 tienen clasificación IP68: hasta 6 metros durante un máximo de 30 minutos. Pero Apple desaconseja nadar con un iPhone o sumergirlo a propósito.",
+          "Además, la resistencia al agua puede disminuir con el tiempo. La garantía no cubre los daños causados por líquidos. Usa una carcasa siempre que nades, hagas snorkel o bucees."],
+          "src": {"label": "Sobre la resistencia del iPhone 7 o modelos posteriores al polvo, el agua y las salpicaduras (Soporte técnico de Apple)", "href": "https://support.apple.com/es-es/108039"}},
+        {"h": "Elige la carcasa adecuada", "ul": [
+          "Comprueba la profundidad máxima. Debe ser mayor que la de tu inmersión prevista.",
+          "Comprueba que encaja con tu modelo de móvil y con la disposición de sus cámaras.",
+          "Mira cómo se controla la cámara. Una pantalla táctil mojada no funciona bien. Algunas carcasas usan botones y una app. Otras permiten tocar la pantalla a través de una cubierta."]},
+        {"h": "Prueba si hay fugas antes de cada viaje", "ul": [
+          "Limpia la junta. Quita la arena, los pelos y la sal. Un solo pelo puede dejar pasar el agua.",
+          "Cierra la carcasa sin el móvil. Sumérgela unos minutos en un fregadero o en una piscina.",
+          "Seca el exterior, ábrela y busca agua. Introduce el móvil solo si el interior sigue seco."]},
+        {"h": "Prepara el móvil", "ul": [
+          "Carga la batería por completo y libera espacio de almacenamiento.",
+          "Si la carcasa necesita el móvil sin funda, quítasela.",
+          "Ajusta el Bloqueo automático a un tiempo más largo para que la pantalla siga encendida.",
+          "Cierra la carcasa en un lugar fresco y seco, no al sol. Así ayudas a evitar el vaho. Añade un inserto antivaho si la carcasa lo incluye."]},
+        {"h": "En el agua", "ul": [
+          "Ponte una correa de muñeca o un cordón.",
+          "Comprueba si hay agua dentro durante los primeros minutos.",
+          "Si ves agua, saca la carcasa del agua en cuanto sea seguro.",
+          "Usa la cámara principal (1×) y apaga el flash. El flash puede reflejarse dentro de la carcasa."]},
+        {"h": "Después de la inmersión", "p": [
+          "Aclara la carcasa cerrada con agua dulce. Sécala antes de abrirla. Mantenla fuera del sol directo."]}
+      ],
+      "cta": "Las fotos y los vídeos hechos con una carcasa siguen saliendo azules o verdes. Ábrelos en UnderBlue desde tu fototeca, o compártelos con UnderBlue desde la app Fotos."
+    },
+    "action-camera-underwater": {
+      "title": "Cámara de acción bajo el agua: qué revisar antes de bucear | UnderBlue",
+      "description": "Antes de llevar una cámara de acción bajo el agua, revisa la profundidad máxima, las juntas, el vaho, la batería y los filtros de color. Después, corrige el color de tus imágenes en el iPhone.",
+      "h1": "Cámara de acción bajo el agua: qué revisar antes de bucear",
+      "intro": [
+        "Las cámaras de acción son pequeñas, resistentes y fáciles de llevar al bucear. Pero un pequeño error puede inundar la cámara o arruinar las imágenes.",
+        "Revisa estos puntos antes de meterte en el agua."
+      ],
+      "sections": [
+        {"h": "Conoce la profundidad máxima", "p": [
+          "Muchas cámaras de acción son sumergibles sin carcasa, pero solo hasta una profundidad limitada. Mira el valor en el manual. Para inmersiones más profundas, usa la carcasa de buceo del fabricante."]},
+        {"h": "Revisa todas las tapas y juntas", "ul": [
+          "Cierra del todo la tapa de la batería y la tapa del objetivo.",
+          "Quita la arena, los pelos y la sal de las juntas. Un solo pelo puede dejar pasar el agua."]},
+        {"h": "Evita el vaho antes de que aparezca", "p": [
+          "El vaho se forma cuando el aire cálido y húmedo del interior se encuentra con el agua fría. Cierra la carcasa en una habitación fresca y seca. Usa insertos antivaho si los tienes."]},
+        {"h": "Batería y almacenamiento", "ul": [
+          "El agua fría gasta la batería más rápido. Empieza con la batería llena.",
+          "Empieza con una tarjeta de memoria vacía o con mucho espacio libre.",
+          "Apaga el Wi-Fi y la pantalla frontal si no los necesitas."]},
+        {"h": "Aprende los botones en tierra", "p": [
+          "Las pantallas táctiles no funcionan bien bajo el agua ni dentro de una carcasa. Antes de la inmersión, aprende a iniciar, detener y cambiar de modo con los botones."]},
+        {"h": "Acércate más de lo que crees", "p": [
+          "Las cámaras de acción tienen un gran angular muy amplio. Los peces se ven pequeños y lejanos si no estás cerca. Acércate más de lo que te parece natural, pero no toques nunca la fauna marina ni el coral."]},
+        {"h": "Mantén la cámara sujeta a ti", "p": [
+          "Una cámara pequeña se cae con facilidad y cuesta encontrarla. Usa una correa de muñeca, un cordón en espiral o un asa flotante."]},
+        {"h": "Usa los filtros de color con cuidado", "ul": [
+          "Un filtro rojo devuelve el rojo en el agua azul.",
+          "Un filtro magenta es para el agua verde.",
+          "En aguas muy poco profundas, un filtro puede dejar la imagen demasiado roja o rosa.",
+          "Prueba primero el filtro y los ajustes de color en aguas poco profundas."]},
+        {"h": "Después de la inmersión", "p": [
+          "Aclara la cámara con agua dulce y sécala antes de abrir ninguna tapa. Después, copia tus clips al iPhone con la app del fabricante de la cámara, en la app Fotos o en la app Archivos."]}
+      ],
+      "cta": "Las imágenes de una cámara de acción suelen verse azules o verdes. Copia el clip a tu iPhone y ábrelo en UnderBlue desde la app Fotos o la app Archivos. UnderBlue mantiene el color estable en todo el clip."
+    }
+  }
+}

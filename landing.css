@@ -67,3 +67,20 @@ section { margin-top: 48px; }
 .muted { color: var(--muted); }
 .small { font-size: 0.85rem; }
 footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line); text-align: center; }
+
+.guides { list-style: none; margin: 0; padding: 0; display: grid; gap: 12px; grid-template-columns: repeat(auto-fit, minmax(min(100%, 340px), 1fr)); }
+.guides li { padding: 16px; border: 1px solid var(--line); border-radius: 14px; background: var(--card); }
+.guides a { display: block; font-weight: 600; margin-bottom: 4px; }
+.guides span { display: block; }
+
+.article { max-width: 760px; margin: 0 auto; }
+.article-head { margin-top: 32px; }
+.article-head h1 { font-size: clamp(1.8rem, 5vw, 2.6rem); margin: 4px 0 12px; }
+.article-head .lead { margin: 0 0 12px; max-width: none; }
+.article section { margin-top: 36px; }
+.article section:not(.card) h2 { font-size: 1.3rem; }
+.article li { margin-bottom: 6px; }
+.cta-img { border-radius: 14px; margin-top: 8px; width: 100%; }
+.more { margin-top: 48px; }
+.guides img { border-radius: 10px; margin-bottom: 10px; width: 100%; }
+.art { border-radius: 20px; width: 100%; margin: 4px 0 20px; }

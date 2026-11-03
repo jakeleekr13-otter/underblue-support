@@ -5,6 +5,12 @@ scripts/app_store_screenshots/captions.json. Only page chrome is written here.
 
 Usage: python3 -I _build/build_landing.py <path to the underblue app repo>
 Pages: / (en), /ko/, /ja/, /zh-hans/, /zh-hant/, /es/ and sitemap.xml.
+
+Guides: _build/guides/<locale key>.json holds the guide articles for one
+language. Each guide is written to <locale dir>/guides/<slug>/index.html.
+A language without a JSON file, or without a slug, has no page for it.
+The landing page of a language links to its guides. Guide text is site-only
+copy, so it lives here and not in the app repo.
 """
 import html
 import json
@@ -18,6 +24,9 @@ APP_STORE = "https://apps.apple.com/app/id6815881625"
 # the Mac section then shows a Mac App Store badge instead of "coming soon".
 MAC_APP_STORE = None
 ROOT = Path(__file__).resolve().parent.parent
+GUIDES_DIR = ROOT / "_build" / "guides"
+GUIDE_ORDER = ["underwater-photo-tips", "underwater-video-tips",
+               "smartphone-underwater-housing", "action-camera-underwater"]
 
 # key: url dir, html lang, metadata name, captions.json key, og locale
 LOCALES = [
@@ -119,7 +128,29 @@ def strip_tags(s):
     return re.sub(r"<[^>]+>", "", s.replace("<br>", " ")).strip()
 
 
-def page(loc, md, captions):
+def load_guides():
+    out = {}
+    for loc in LOCALES:
+        f = GUIDES_DIR / f"{loc[0]}.json"
+        if f.exists():
+            data = json.loads(f.read_text())
+            unknown = set(data["guides"]) - set(GUIDE_ORDER)
+            assert not unknown, f"{f.name}: unknown guide slugs {unknown}"
+            out[loc[0]] = data
+    return out
+
+
+def guide_list(key, guides, up, skip=None):
+    g = guides[key]["guides"]
+    return "\n".join(
+        f'      <li><img src="{up}assets/guides/{s}.svg" width="640" height="320" loading="lazy" alt="">'
+        f'<a href="{up}{dict((l[0], l[1]) for l in LOCALES)[key]}guides/{s}/">{html.escape(g[s]["h1"])}</a>'
+        f'<span class="muted small">{html.escape(g[s]["description"])}</span></li>'
+        for s in GUIDE_ORDER if s in g and s != skip
+    )
+
+
+def page(loc, md, captions, guides):
     key, rel, lang, meta_name, cap_key, og_locale = loc
     ui = UI[key]
     e = html.escape
@@ -160,6 +191,17 @@ def page(loc, md, captions):
                      'width="220" height="55" alt="Download on the Mac App Store"></a>')
     else:
         mac_h, mac_badge = f'{ui["mac_name"]} — {ui["soon"]}', ""
+    guides_html = ""
+    if key in guides:
+        gui = guides[key]["ui"]
+        guides_html = f"""  <section>
+    <h2>{e(gui["guides_h"])}</h2>
+    <ul class="guides">
+{guide_list(key, guides, up)}
+    </ul>
+  </section>
+
+"""
     return f"""<!doctype html>
 <html lang="{lang}">
 <head>
@@ -220,7 +262,7 @@ def page(loc, md, captions):
     </ul>
   </section>
 
-  <section class="card cta">
+{guides_html}  <section class="card cta">
     <h2>{e(ui["cta_h"])}</h2>
     <p>{e(pricing)}</p>
     <a class="badge" href="{APP_STORE}"><img src="{up}assets/badges/{key}.svg" width="180" height="60" alt="Download on the App Store"></a>
@@ -243,7 +285,123 @@ def page(loc, md, captions):
 """
 
 
-def sitemap():
+def guide_page(loc, slug, guides):
+    key, rel, lang, _, _, og_locale = loc
+    e = html.escape
+    data = guides[key]
+    ui, g = data["ui"], data["guides"][slug]
+    path = f"{rel}guides/{slug}/"
+    url = f"{SITE}/{path}"
+    up = "../" * path.count("/")
+    have = [l for l in LOCALES if l[0] in guides and slug in guides[l[0]]["guides"]]
+    alternates = "\n".join(
+        f'  <link rel="alternate" hreflang="{l[2]}" href="{SITE}/{l[1]}guides/{slug}/">' for l in have
+    )
+    if any(l[0] == "en" for l in have):
+        alternates += f'\n  <link rel="alternate" hreflang="x-default" href="{SITE}/guides/{slug}/">'
+    langs = "\n".join(
+        f'      <li><a href="{up}{l[1]}guides/{slug}/" hreflang="{l[2]}" lang="{l[2]}"'
+        + (' aria-current="page"' if l[0] == key else "") + f">{NATIVE[l[0]]}</a></li>"
+        for l in have
+    )
+    ld = {
+        "@context": "https://schema.org", "@type": "Article",
+        "headline": g["h1"], "description": g["description"], "inLanguage": lang,
+        "image": f"{SITE}/assets/og.jpg", "mainEntityOfPage": url,
+        "datePublished": data["published"], "dateModified": data.get("modified", data["published"]),
+        "author": {"@type": "Organization", "name": "Enheart"},
+        "publisher": {"@type": "Organization", "name": "Enheart"},
+        "about": {"@type": "SoftwareApplication", "name": "UnderBlue", "operatingSystem": "iOS",
+                  "applicationCategory": "MultimediaApplication", "installUrl": APP_STORE},
+    }
+
+    def block(sec):
+        out = [f'    <h2>{e(sec["h"])}</h2>']
+        out += [f"    <p>{e(t)}</p>" for t in sec.get("p", [])]
+        if sec.get("ul"):
+            out.append('    <ul>\n' + "\n".join(f"      <li>{e(t)}</li>" for t in sec["ul"]) + "\n    </ul>")
+        out += [f"    <p>{e(t)}</p>" for t in sec.get("p_after", [])]
+        if sec.get("src"):
+            src = sec["src"]
+            out.append(f'    <p class="muted small">{e(ui["source"])}: <a href="{e(src["href"])}">{e(src["label"])}</a></p>')
+        return "  <section>\n" + "\n".join(out) + "\n  </section>"
+
+    body = "\n\n".join(block(sec) for sec in g["sections"])
+    intro = "\n".join(f'    <p class="lead">{e(t)}</p>' for t in g["intro"])
+    more = guide_list(key, guides, up, skip=slug)
+    return f"""<!doctype html>
+<html lang="{lang}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{e(g["title"])}</title>
+  <meta name="description" content="{e(g["description"])}">
+  <link rel="canonical" href="{url}">
+{alternates}
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="UnderBlue">
+  <meta property="og:title" content="{e(g["title"])}">
+  <meta property="og:description" content="{e(g["description"])}">
+  <meta property="og:url" content="{url}">
+  <meta property="og:image" content="{SITE}/assets/og.jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="628">
+  <meta property="og:locale" content="{og_locale}">
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="apple-itunes-app" content="app-id=6815881625">
+  <link rel="icon" type="image/png" href="{up}assets/favicon.png">
+  <link rel="apple-touch-icon" href="{up}assets/apple-touch-icon.png">
+  <link rel="stylesheet" href="{up}landing.css">
+  <script type="application/ld+json">{json.dumps(ld, ensure_ascii=False)}</script>
+</head>
+<body>
+  <header class="top">
+    <a class="brand" href="{up}{rel}"><img src="{up}assets/apple-touch-icon.png" width="36" height="36" alt="">UnderBlue</a>
+    <nav aria-label="{e(UI[key]["lang"])}">
+      <ul class="langs">
+{langs}
+      </ul>
+    </nav>
+  </header>
+
+  <main class="article">
+  <article>
+  <header class="article-head">
+    <p class="muted small"><a href="{up}{rel}">UnderBlue</a> › {e(ui["guides_h"])}</p>
+    <h1>{e(g["h1"])}</h1>
+    <img class="art" src="{up}assets/guides/{slug}.svg" width="640" height="320" alt="">
+{intro}
+  </header>
+
+{body}
+
+  <section class="card cta">
+    <h2>{e(ui["cta_h"])}</h2>
+    <p>{e(g["cta"])}</p>
+    <p>{e(ui["cta_p"])}</p>
+    <a class="badge" href="{APP_STORE}"><img src="{up}assets/badges/{key}.svg" width="180" height="60" alt="Download on the App Store"></a>
+    <img class="cta-img" src="{up}assets/hero.jpg" width="1600" height="960" loading="lazy" alt="{e(ui["hero_alt"])}">
+  </section>
+  </article>
+
+  <nav class="more" aria-label="{e(ui["more"])}">
+    <h2>{e(ui["more"])}</h2>
+    <ul class="guides">
+{more}
+    </ul>
+  </nav>
+  </main>
+
+  <footer>
+    <p><a href="{up}{rel}">UnderBlue</a> · <a href="{up}support/">{e(UI[key]["support"])}</a> · <a href="{up}privacy/">{e(UI[key]["privacy"])}</a></p>
+    <p class="muted small">© 2026 Enheart</p>
+  </footer>
+</body>
+</html>
+"""
+
+
+def sitemap(guides):
     urls = [f"{SITE}/{l[1]}" for l in LOCALES] + [f"{SITE}/support/", f"{SITE}/privacy/"]
     alt = "".join(
         f'\n    <xhtml:link rel="alternate" hreflang="{l[2]}" href="{SITE}/{l[1]}"/>' for l in LOCALES
@@ -252,6 +410,14 @@ def sitemap():
     for u in urls:
         extra = alt if u in urls[:len(LOCALES)] else ""
         rows.append(f"  <url>\n    <loc>{u}</loc>{extra}\n  </url>")
+    for slug in GUIDE_ORDER:
+        have = [l for l in LOCALES if l[0] in guides and slug in guides[l[0]]["guides"]]
+        galt = "".join(
+            f'\n    <xhtml:link rel="alternate" hreflang="{l[2]}" href="{SITE}/{l[1]}guides/{slug}/"/>'
+            for l in have
+        )
+        for l in have:
+            rows.append(f"  <url>\n    <loc>{SITE}/{l[1]}guides/{slug}/</loc>{galt}\n  </url>")
     return ('<?xml version="1.0" encoding="UTF-8"?>\n'
             '<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" '
             'xmlns:xhtml="http://www.w3.org/1999/xhtml">\n' + "\n".join(rows) + "\n</urlset>\n")
@@ -261,12 +427,19 @@ def main():
     app = Path(sys.argv[1])
     md = (app / "docs/AppStoreMetadata.md").read_text()
     captions = json.loads((app / "scripts/app_store_screenshots/captions.json").read_text())
+    guides = load_guides()
     for loc in LOCALES:
         out = ROOT / loc[1] / "index.html"
         out.parent.mkdir(parents=True, exist_ok=True)
-        out.write_text(page(loc, md, captions))
+        out.write_text(page(loc, md, captions, guides))
         print("wrote", out.relative_to(ROOT))
-    (ROOT / "sitemap.xml").write_text(sitemap())
+        for slug in GUIDE_ORDER:
+            if loc[0] in guides and slug in guides[loc[0]]["guides"]:
+                out = ROOT / loc[1] / "guides" / slug / "index.html"
+                out.parent.mkdir(parents=True, exist_ok=True)
+                out.write_text(guide_page(loc, slug, guides))
+                print("wrote", out.relative_to(ROOT))
+    (ROOT / "sitemap.xml").write_text(sitemap(guides))
     print("wrote sitemap.xml")
 
 
