@@ -20,6 +20,8 @@ from pathlib import Path
 
 SITE = "https://jakeleekr13-otter.github.io/underblue-support"
 APP_STORE = "https://apps.apple.com/app/id6815881625"
+# A sister app by the same seller (Enheart), linked from every landing page (Jake, 5 Nov 2026).
+SISTER_APP = "https://apps.apple.com/app/id6813368660"
 # The Mac app is a separate App Store record. Set its link when it is live;
 # the Mac section then shows a Mac App Store badge instead of "coming soon".
 MAC_APP_STORE = None
@@ -54,6 +56,7 @@ UI = {
         "cta_h": "Try it free",
         "support": "Support", "privacy": "Privacy Policy", "lang": "Language",
         "shots": "Screenshots",
+        "sister_h": "Also by Enheart", "sister_p": "a dive logbook for scuba divers and freedivers.",
     },
     "ko": {
         "title": "UnderBlue — 수중 사진·영상 색보정 앱 (iPhone)",
@@ -63,6 +66,7 @@ UI = {
         "cta_h": "무료로 써 보세요",
         "support": "지원", "privacy": "개인정보 처리방침", "lang": "언어",
         "shots": "스크린샷",
+        "sister_h": "Enheart의 다른 앱", "sister_p": "스쿠버 다이버와 프리다이버를 위한 다이브 로그북입니다.",
     },
     "ja": {
         "title": "UnderBlue — 水中写真・水中動画の色補正アプリ（iPhone）",
@@ -72,6 +76,7 @@ UI = {
         "cta_h": "無料で試せます",
         "support": "サポート", "privacy": "プライバシーポリシー", "lang": "言語",
         "shots": "スクリーンショット",
+        "sister_h": "Enheartのほかのアプリ", "sister_p": "スクーバダイバーとフリーダイバーのためのダイブログブックです。",
     },
     "zh-hans": {
         "title": "UnderBlue — 水下照片与视频色彩校正 App（iPhone）",
@@ -81,6 +86,7 @@ UI = {
         "cta_h": "免费试用",
         "support": "支持", "privacy": "隐私政策", "lang": "语言",
         "shots": "截图",
+        "sister_h": "Enheart 的其他应用", "sister_p": "为水肺潜水员和自由潜水员打造的潜水日志。",
     },
     "zh-hant": {
         "title": "UnderBlue — 水下照片與影片色彩校正 App（iPhone）",
@@ -90,6 +96,7 @@ UI = {
         "cta_h": "免費試用",
         "support": "支援", "privacy": "隱私權政策", "lang": "語言",
         "shots": "螢幕截圖",
+        "sister_h": "Enheart 的其他 App", "sister_p": "為水肺潛水員與自由潛水員打造的潛水日誌。",
     },
     "es": {
         "title": "UnderBlue — Corrige el color de tus fotos y vídeos submarinos (iPhone)",
@@ -99,6 +106,7 @@ UI = {
         "cta_h": "Pruébala gratis",
         "support": "Soporte", "privacy": "Política de privacidad", "lang": "Idioma",
         "shots": "Capturas de pantalla",
+        "sister_h": "Más apps de Enheart", "sister_p": "un diario de inmersiones para buceadores y apneístas.",
     },
 }
 
@@ -273,6 +281,11 @@ def page(loc, md, captions, guides):
     <h2>{e(mac_h)}</h2>
     <p>{e(ui["mac_p"])}</p>{mac_badge}
     <img src="{up}assets/mac-batch.jpg" width="1200" height="750" loading="lazy" alt="{e(ui["mac_alt"])}">
+  </section>
+
+  <section class="card sister">
+    <h2>{e(ui["sister_h"])}</h2>
+    <p><a href="{SISTER_APP}">Bubbly Dive Logbook</a> — {e(ui["sister_p"])}</p>
   </section>
   </main>
 
