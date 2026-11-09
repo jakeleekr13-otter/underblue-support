@@ -151,7 +151,7 @@ def load_guides():
 def guide_list(key, guides, up, skip=None):
     g = guides[key]["guides"]
     return "\n".join(
-        f'      <li><img src="{up}assets/guides/{s}.svg" width="640" height="320" loading="lazy" alt="">'
+        f'      <li><img src="{up}assets/guides/{s}.svg" width="640" height="320" loading="lazy" alt="{html.escape(g[s]["h1"])}">'
         f'<a href="{up}{dict((l[0], l[1]) for l in LOCALES)[key]}guides/{s}/">{html.escape(g[s]["h1"])}</a>'
         f'<span class="muted small">{html.escape(g[s]["description"])}</span></li>'
         for s in GUIDE_ORDER if s in g and s != skip
@@ -382,7 +382,7 @@ def guide_page(loc, slug, guides):
   <header class="article-head">
     <p class="muted small"><a href="{up}{rel}">UnderBlue</a> › {e(ui["guides_h"])}</p>
     <h1>{e(g["h1"])}</h1>
-    <img class="art" src="{up}assets/guides/{slug}.svg" width="640" height="320" alt="">
+    <img class="art" src="{up}assets/guides/{slug}.svg" width="640" height="320" alt="{e(g["h1"])}">
 {intro}
   </header>
 
