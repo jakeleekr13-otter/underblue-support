@@ -191,10 +191,10 @@
                 "3 fotos; después, 1 foto y los primeros 10 segundos de 1 vídeo cada 24 horas, con marca de agua"
               ],
               [
-                "Opción de pago",
-                "Compra dentro de la app: mensual, anual o Pro",
-                "Suscripción VIP: 1 mes o 1 año",
-                "Compra única"
+                "Precio (App Store de EE. UU.)",
+                "Gratis con marca de agua. Pro: 3,99 USD al mes, 14,99 USD al año o 34,99 USD",
+                "Gratis con límites. VIP: 3,99 USD al mes o 22,99 USD al año; hay otros planes",
+                "Gratis con marca de agua. UnderBlue Pro: 14,99 USD, compra única"
               ],
               [
                 "Procesado",
@@ -246,16 +246,16 @@
         {
           "h": "UnderBlue",
           "p": [
-            "Hecha solo para el color. En las fotos, estima la profundidad de la escena y corrige de forma distinta lo cercano y lo lejano. Los vídeos conservan su frecuencia de fotogramas, su audio y su HDR. Todo se procesa en tu iPhone. Pagas una vez, sin suscripción."
+            "Hecha solo para el color. En las fotos, estima la profundidad de la escena y corrige de forma distinta lo cercano y lo lejano. Los vídeos conservan su frecuencia de fotogramas, su audio y su HDR. Todo se procesa en tu iPhone. Puedes probarla gratis. UnderBlue Pro cuesta 14,99 USD, en un solo pago y sin suscripción."
           ]
         },
         {
           "h": "¿Cuál elegir?",
           "ul": [
+            "Solo quieres recuperar el color natural: elige UnderBlue. Está hecha solo para el color y funciona en tu iPhone. Empieza gratis y paga una sola vez: 14,99 USD por UnderBlue Pro.",
             "Quieres comunidad y diario de inmersiones: Dive+.",
             "Ya editas en iPad o Mac: AquaColorFix.",
-            "Quieres procesado en el dispositivo y un pago único: UnderBlue.",
-            "¿No lo tienes claro? Las tres se pueden probar gratis. Corrige la misma foto en cada una y compara."
+            "¿No lo tienes claro? Empieza por UnderBlue. Puedes probarla gratis."
           ]
         },
         {

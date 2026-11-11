@@ -191,10 +191,10 @@
                 "3 photos, then 1 photo and a 10-second video clip every 24 hours, with a watermark"
               ],
               [
-                "Paid option",
-                "In-app purchase: monthly, yearly or Pro",
-                "VIP subscription: 1 month or 1 year",
-                "One-time purchase"
+                "Price (US App Store)",
+                "Free with a watermark. Pro: $3.99 a month, $14.99 a year, or $34.99",
+                "Free with limits. VIP: $3.99 a month or $22.99 a year; other plans are also listed",
+                "Free with a watermark. UnderBlue Pro: $14.99, one-time purchase"
               ],
               [
                 "Processing",
@@ -246,16 +246,16 @@
         {
           "h": "UnderBlue",
           "p": [
-            "Made only for color. For photos, it estimates depth in the scene and corrects near and far parts differently. Videos keep their frame rate, audio and HDR. Everything runs on your iPhone. You pay once, with no subscription."
+            "Made only for color. For photos, it estimates depth in the scene and corrects near and far parts differently. Videos keep their frame rate, audio and HDR. Everything runs on your iPhone. It is free to try. UnderBlue Pro costs $14.99, paid once, with no subscription."
           ]
         },
         {
           "h": "Which one should you choose?",
           "ul": [
+            "You just want natural color back: choose UnderBlue. It is made only for color and runs on your iPhone. Start free, then pay once: $14.99 for UnderBlue Pro.",
             "You want a community and a dive log: Dive+.",
             "You edit on iPad or Mac today: AquaColorFix.",
-            "You want on-device processing and a one-time price: UnderBlue.",
-            "Not sure? All three are free to try. Fix the same photo in each and compare."
+            "Not sure? Start with UnderBlue. It is free to try."
           ]
         },
         {
