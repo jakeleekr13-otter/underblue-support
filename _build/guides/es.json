@@ -218,6 +218,16 @@
           }
         },
         {
+          "h": "Por qué UnderBlue",
+          "ul": [
+            "Un solo pago, sin suscripción: UnderBlue Pro cuesta 14,99 USD, una vez. Dive+ VIP es una suscripción que se renueva cada mes o cada año, así que sigues pagando. El plan de por vida de AquaColorFix cuesta 34,99 USD.",
+            "Privada: todo se procesa en tu iPhone. Sin cuenta y sin subir nada. La etiqueta del App Store dice «No se recopilan datos».",
+            "Hecha solo para el color: las fotos se corrigen teniendo en cuenta la profundidad. Elige un estilo y ajústalo con los controles Personalizado.",
+            "El vídeo queda intacto: conserva la frecuencia de fotogramas, el audio y el HDR. Con UnderBlue Pro exportas vídeos completos y en 4K.",
+            "Gratis para probar: sin registro."
+          ]
+        },
+        {
           "h": "AquaColorFix",
           "p": [
             "Corrige el color de fotos y vídeos con un toque. Tiene muchos controles manuales, como tono, exposición, sombras y punto negro. Funciona en iPhone, iPad y Mac."
@@ -230,7 +240,7 @@
         {
           "h": "Dive+",
           "p": [
-            "Una app de comunidad de buceo con corrección de color incluida. También tiene diario de inmersiones, búsqueda de puntos de buceo y compañeros de todo el mundo. Va bien si quieres una sola app para el diario y las fotos."
+            "Una app de comunidad de buceo con corrección de color incluida. También tiene diario de inmersiones, búsqueda de puntos de buceo y compañeros de todo el mundo. Va bien si quieres una sola app para el diario y las fotos. Para usarla sin límites necesitas la suscripción VIP, que se paga cada mes o cada año."
           ],
           "src": [
             {
@@ -253,7 +263,7 @@
           "h": "¿Cuál elegir?",
           "ul": [
             "Solo quieres recuperar el color natural: elige UnderBlue. Está hecha solo para el color y funciona en tu iPhone. Empieza gratis y paga una sola vez: 14,99 USD por UnderBlue Pro.",
-            "Quieres comunidad y diario de inmersiones: Dive+.",
+            "Quieres comunidad y diario de inmersiones, y no te importa pagar una suscripción: Dive+.",
             "Ya editas en iPad o Mac: AquaColorFix.",
             "¿No lo tienes claro? Empieza por UnderBlue. Puedes probarla gratis."
           ]

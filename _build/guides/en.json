@@ -218,6 +218,16 @@
           }
         },
         {
+          "h": "Why UnderBlue",
+          "ul": [
+            "Pay once, no subscription: UnderBlue Pro is $14.99, once. Dive+ VIP is a subscription that renews every month or year, so you keep paying. The AquaColorFix lifetime plan is $34.99.",
+            "Private by design: everything runs on your iPhone. No account, no upload. The App Store label says Data Not Collected.",
+            "Made only for color: photos get depth-aware correction. Pick a look, then fine-tune it with Custom sliders.",
+            "Video stays intact: frame rate, audio and HDR are kept. UnderBlue Pro exports full-length and 4K video.",
+            "Free to try: no sign-up needed."
+          ]
+        },
+        {
           "h": "AquaColorFix",
           "p": [
             "A one-tap color fix for photos and video. It has many manual sliders, such as hue, exposure, shadows and black point. It runs on iPhone, iPad and Mac."
@@ -230,7 +240,7 @@
         {
           "h": "Dive+",
           "p": [
-            "A diving community app with a color fix built in. You also get dive logs, dive-site search and buddies from around the world. Good if you want one app for logs and photos."
+            "A diving community app with a color fix built in. You also get dive logs, dive-site search and buddies from around the world. Good if you want one app for logs and photos. Full use needs a VIP subscription, paid every month or every year."
           ],
           "src": [
             {
@@ -253,7 +263,7 @@
           "h": "Which one should you choose?",
           "ul": [
             "You just want natural color back: choose UnderBlue. It is made only for color and runs on your iPhone. Start free, then pay once: $14.99 for UnderBlue Pro.",
-            "You want a community and a dive log: Dive+.",
+            "You want a community and a dive log, and a subscription is fine: Dive+.",
             "You edit on iPad or Mac today: AquaColorFix.",
             "Not sure? Start with UnderBlue. It is free to try."
           ]
