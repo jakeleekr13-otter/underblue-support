@@ -145,6 +145,138 @@
           "민물에 헹구고, 물기를 닦은 뒤에 덮개를 여세요. 그다음 카메라 제조사 앱으로 영상을 iPhone의 사진 앱이나 파일 앱으로 옮기세요."]}
       ],
       "cta": "액션캠 영상도 파랗거나 초록빛을 띠기 쉽습니다. 클립을 iPhone으로 옮긴 뒤 사진 앱이나 파일 앱에서 UnderBlue로 여세요. UnderBlue는 클립 전체에서 색이 흔들리지 않게 유지합니다."
+    },
+    "underwater-color-correction-apps": {
+      "published": "2026-11-11",
+      "title": "AquaColorFix vs Dive+ vs UnderBlue: 수중 색보정 앱 비교 | UnderBlue",
+      "description": "수중 사진 색을 되살리는 iPhone 앱 세 가지, AquaColorFix·Dive+(다이브플러스)·UnderBlue를 비교합니다. 기능, 요금 방식, 개인정보를 App Store 정보로 정리했습니다.",
+      "h1": "AquaColorFix, Dive+, UnderBlue: 수중 색보정 앱 비교",
+      "intro": [
+        "파랗거나 초록빛인 수중 사진을 보정하려고 AquaColorFix나 Dive+(다이브플러스)를 찾는 다이버가 많습니다. 둘 다 많이 쓰는 앱입니다.",
+        "이 페이지에서는 두 앱을 저희 앱 UnderBlue와 비교합니다. 각 App Store 페이지에 있는 사실만 적었습니다."
+      ],
+      "sections": [
+        {
+          "h": "한눈에 보기",
+          "table": {
+            "head": [
+              "",
+              "AquaColorFix",
+              "Dive+",
+              "UnderBlue"
+            ],
+            "rows": [
+              [
+                "사진·영상",
+                "지원",
+                "지원",
+                "지원"
+              ],
+              [
+                "기기",
+                "iPhone, iPad, Mac",
+                "iPhone, Mac(Apple 실리콘), Android",
+                "iPhone(Mac 출시 예정)"
+              ],
+              [
+                "계정",
+                "필요 없음",
+                "안내 없음",
+                "필요 없음"
+              ],
+              [
+                "무료 사용",
+                "워터마크와 함께 사진 무제한",
+                "원탭 보정. 사용자 보고에 따르면 하루 한도(사진 약 8장, 영상 2개)가 있고, VIP가 아니면 워터마크가 붙습니다.",
+                "사진 3장, 이후 24시간마다 사진 1장과 영상 10초 1개, 워터마크 포함"
+              ],
+              [
+                "유료",
+                "앱 내 구입: 월간, 연간 또는 Pro",
+                "VIP 구독: 1개월 또는 1년",
+                "한 번 구입"
+              ],
+              [
+                "처리 위치",
+                "안내 없음",
+                "안내 없음",
+                "iPhone 안에서 처리, 업로드 없음"
+              ],
+              [
+                "App Store 개인정보 라벨",
+                "데이터가 수집되지 않음",
+                "사용자에게 연결된 데이터: 위치",
+                "데이터가 수집되지 않음"
+              ],
+              [
+                "기타 기능",
+                "수동 슬라이더, 비네팅",
+                "다이버 커뮤니티, 다이브 로그, 포인트 정보",
+                "보정 스타일, 직접 조정 슬라이더, RAW 가져오기, HDR 내보내기"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "AquaColorFix",
+          "p": [
+            "사진과 영상을 한 번 탭으로 보정합니다. 색조, 노출, 그림자, 블랙 포인트 같은 수동 슬라이더가 많습니다. iPhone, iPad, Mac에서 쓸 수 있습니다."
+          ],
+          "src": {
+            "label": "App Store의 AquaColorFix",
+            "href": "https://apps.apple.com/us/app/id1579618383"
+          }
+        },
+        {
+          "h": "Dive+",
+          "p": [
+            "색보정 기능이 들어 있는 다이빙 커뮤니티 앱입니다. 다이브 로그, 포인트 검색, 세계 각지의 버디 기능도 있습니다. 로그와 사진을 한 앱에서 관리하고 싶다면 잘 맞습니다."
+          ],
+          "src": [
+            {
+              "label": "App Store의 Dive+",
+              "href": "https://apps.apple.com/us/app/id1251506403"
+            },
+            {
+              "label": "Google Play",
+              "href": "https://play.google.com/store/apps/details?id=com.lifeplus.diveplus"
+            }
+          ]
+        },
+        {
+          "h": "UnderBlue",
+          "p": [
+            "색보정만을 위해 만든 앱입니다. 사진은 장면의 깊이를 추정해 가까운 곳과 먼 곳을 다르게 보정합니다. 영상은 원본의 프레임 레이트, 오디오, HDR을 유지합니다. 모든 처리는 iPhone 안에서 이루어집니다. 구독 없이 한 번만 구입하면 됩니다."
+          ]
+        },
+        {
+          "h": "어떤 앱을 고를까요?",
+          "ul": [
+            "커뮤니티와 다이브 로그가 필요하다면: Dive+",
+            "지금 iPad나 Mac에서 편집한다면: AquaColorFix",
+            "기기 안 처리와 한 번 구입을 원한다면: UnderBlue",
+            "잘 모르겠다면? 세 앱 모두 무료로 써 볼 수 있습니다. 같은 사진을 각각 보정해 비교해 보세요."
+          ]
+        },
+        {
+          "h": "이 비교에 대해",
+          "p": [
+            "2026년 11월 11일 미국 App Store와 Google Play 페이지를 기준으로 했습니다. Dive+의 하루 한도는 스토어 페이지가 아닌 사용자 보고에서 가져왔습니다. 앱은 바뀔 수 있으니 최신 정보는 스토어에서 확인하세요.",
+            "AquaColorFix와 Dive+는 각 소유자의 상표입니다. UnderBlue는 이들과 관계가 없습니다."
+          ],
+          "src": [
+            {
+              "label": "ScubaBoard",
+              "href": "https://scubaboard.com/community/threads/dive-app.646014/"
+            },
+            {
+              "label": "Divernet",
+              "href": "https://divernet.com/scuba-gear/photo-editing-apps/"
+            }
+          ]
+        }
+      ],
+      "cta": "내 다이빙 사진으로 UnderBlue를 써 보세요."
     }
   }
 }

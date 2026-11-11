@@ -145,6 +145,138 @@
           "Aclara la cámara con agua dulce y sécala antes de abrir ninguna tapa. Después, copia tus clips al iPhone con la app del fabricante de la cámara, en la app Fotos o en la app Archivos."]}
       ],
       "cta": "Las imágenes de una cámara de acción suelen verse azules o verdes. Copia el clip a tu iPhone y ábrelo en UnderBlue desde la app Fotos o la app Archivos. UnderBlue mantiene el color estable en todo el clip."
+    },
+    "underwater-color-correction-apps": {
+      "published": "2026-11-11",
+      "title": "AquaColorFix vs Dive+ vs UnderBlue: apps para corregir el color bajo el agua | UnderBlue",
+      "description": "Comparamos tres apps de iPhone que corrigen el color submarino: AquaColorFix, Dive+ y UnderBlue. Funciones, forma de pago y privacidad, según el App Store.",
+      "h1": "AquaColorFix, Dive+ y UnderBlue: comparativa de apps de color submarino",
+      "intro": [
+        "Muchos buceadores buscan AquaColorFix o Dive+ cuando quieren arreglar fotos azules o verdes. Las dos son apps populares.",
+        "En esta página las comparamos con UnderBlue, nuestra app. Solo incluimos datos de la página de cada app en el App Store."
+      ],
+      "sections": [
+        {
+          "h": "De un vistazo",
+          "table": {
+            "head": [
+              "",
+              "AquaColorFix",
+              "Dive+",
+              "UnderBlue"
+            ],
+            "rows": [
+              [
+                "Fotos y vídeos",
+                "Sí",
+                "Sí",
+                "Sí"
+              ],
+              [
+                "Dispositivos",
+                "iPhone, iPad, Mac",
+                "iPhone, Mac (Apple silicon), Android",
+                "iPhone (Mac muy pronto)"
+              ],
+              [
+                "Cuenta",
+                "No hace falta",
+                "No se indica",
+                "No hace falta"
+              ],
+              [
+                "Uso gratis",
+                "Fotos ilimitadas con marca de agua",
+                "Corrección con un toque. Según usuarios, hay un límite diario (unas 8 fotos y 2 vídeos) y marca de agua sin VIP.",
+                "3 fotos; después, 1 foto y los primeros 10 segundos de 1 vídeo cada 24 horas, con marca de agua"
+              ],
+              [
+                "Opción de pago",
+                "Compra dentro de la app: mensual, anual o Pro",
+                "Suscripción VIP: 1 mes o 1 año",
+                "Compra única"
+              ],
+              [
+                "Procesado",
+                "No se indica",
+                "No se indica",
+                "En tu iPhone, sin subir nada"
+              ],
+              [
+                "Etiqueta de privacidad del App Store",
+                "No se recopilan datos",
+                "Datos asociados a ti: ubicación",
+                "No se recopilan datos"
+              ],
+              [
+                "Otras funciones",
+                "Controles manuales, viñeta",
+                "Comunidad de buceo, diario de inmersiones, info de puntos de buceo",
+                "Estilos, controles Personalizado, importación RAW, exportación HDR"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "AquaColorFix",
+          "p": [
+            "Corrige el color de fotos y vídeos con un toque. Tiene muchos controles manuales, como tono, exposición, sombras y punto negro. Funciona en iPhone, iPad y Mac."
+          ],
+          "src": {
+            "label": "AquaColorFix en el App Store",
+            "href": "https://apps.apple.com/us/app/id1579618383"
+          }
+        },
+        {
+          "h": "Dive+",
+          "p": [
+            "Una app de comunidad de buceo con corrección de color incluida. También tiene diario de inmersiones, búsqueda de puntos de buceo y compañeros de todo el mundo. Va bien si quieres una sola app para el diario y las fotos."
+          ],
+          "src": [
+            {
+              "label": "Dive+ en el App Store",
+              "href": "https://apps.apple.com/us/app/id1251506403"
+            },
+            {
+              "label": "Google Play",
+              "href": "https://play.google.com/store/apps/details?id=com.lifeplus.diveplus"
+            }
+          ]
+        },
+        {
+          "h": "UnderBlue",
+          "p": [
+            "Hecha solo para el color. En las fotos, estima la profundidad de la escena y corrige de forma distinta lo cercano y lo lejano. Los vídeos conservan su frecuencia de fotogramas, su audio y su HDR. Todo se procesa en tu iPhone. Pagas una vez, sin suscripción."
+          ]
+        },
+        {
+          "h": "¿Cuál elegir?",
+          "ul": [
+            "Quieres comunidad y diario de inmersiones: Dive+.",
+            "Ya editas en iPad o Mac: AquaColorFix.",
+            "Quieres procesado en el dispositivo y un pago único: UnderBlue.",
+            "¿No lo tienes claro? Las tres se pueden probar gratis. Corrige la misma foto en cada una y compara."
+          ]
+        },
+        {
+          "h": "Sobre esta comparativa",
+          "p": [
+            "Los datos proceden de las páginas del App Store y Google Play de EE. UU. del 11 de noviembre de 2026. El límite diario de Dive+ viene de informes de usuarios, no de la página de la tienda. Las apps cambian, así que consulta la tienda para ver lo más reciente.",
+            "AquaColorFix y Dive+ son marcas de sus propietarios. UnderBlue no tiene relación con ellas."
+          ],
+          "src": [
+            {
+              "label": "ScubaBoard",
+              "href": "https://scubaboard.com/community/threads/dive-app.646014/"
+            },
+            {
+              "label": "Divernet",
+              "href": "https://divernet.com/scuba-gear/photo-editing-apps/"
+            }
+          ]
+        }
+      ],
+      "cta": "Prueba UnderBlue con tus propias fotos de buceo."
     }
   }
 }

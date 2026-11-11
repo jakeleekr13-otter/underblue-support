@@ -28,7 +28,8 @@ MAC_APP_STORE = None
 ROOT = Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_build" / "guides"
 GUIDE_ORDER = ["underwater-photo-tips", "underwater-video-tips",
-               "smartphone-underwater-housing", "action-camera-underwater"]
+               "smartphone-underwater-housing", "action-camera-underwater",
+               "underwater-color-correction-apps"]
 
 # key: url dir, html lang, metadata name, captions.json key, og locale
 LOCALES = [
@@ -321,7 +322,9 @@ def guide_page(loc, slug, guides):
         "@context": "https://schema.org", "@type": "Article",
         "headline": g["h1"], "description": g["description"], "inLanguage": lang,
         "image": f"{SITE}/assets/og.jpg", "mainEntityOfPage": url,
-        "datePublished": data["published"], "dateModified": data.get("modified", data["published"]),
+        # A guide can carry its own dates; otherwise the file's dates apply.
+        "datePublished": g.get("published", data["published"]),
+        "dateModified": g.get("modified", data.get("modified", g.get("published", data["published"]))),
         "author": {"@type": "Organization", "name": "Enheart"},
         "publisher": {"@type": "Organization", "name": "Enheart"},
         "about": {"@type": "SoftwareApplication", "name": "UnderBlue", "operatingSystem": "iOS",
@@ -333,10 +336,22 @@ def guide_page(loc, slug, guides):
         out += [f"    <p>{e(t)}</p>" for t in sec.get("p", [])]
         if sec.get("ul"):
             out.append('    <ul>\n' + "\n".join(f"      <li>{e(t)}</li>" for t in sec["ul"]) + "\n    </ul>")
+        if sec.get("table"):
+            # table: {"head": [...], "rows": [[...], ...]}; the first cell of a row is its header.
+            t = sec["table"]
+            head = "".join(f'<th scope="col">{e(c)}</th>' for c in t["head"])
+            rows = "\n".join(
+                f'        <tr><th scope="row">{e(r[0])}</th>' + "".join(f"<td>{e(c)}</td>" for c in r[1:]) + "</tr>"
+                for r in t["rows"]
+            )
+            assert all(len(r) == len(t["head"]) for r in t["rows"]), f'{sec["h"]}: row width'
+            out.append(f'    <div class="table-wrap"><table>\n      <thead><tr>{head}</tr></thead>\n'
+                       f'      <tbody>\n{rows}\n      </tbody>\n    </table></div>')
         out += [f"    <p>{e(t)}</p>" for t in sec.get("p_after", [])]
         if sec.get("src"):
-            src = sec["src"]
-            out.append(f'    <p class="muted small">{e(ui["source"])}: <a href="{e(src["href"])}">{e(src["label"])}</a></p>')
+            srcs = sec["src"] if isinstance(sec["src"], list) else [sec["src"]]
+            links = ", ".join(f'<a href="{e(x["href"])}">{e(x["label"])}</a>' for x in srcs)
+            out.append(f'    <p class="muted small">{e(ui["source"])}: {links}</p>')
         return "  <section>\n" + "\n".join(out) + "\n  </section>"
 
     body = "\n\n".join(block(sec) for sec in g["sections"])

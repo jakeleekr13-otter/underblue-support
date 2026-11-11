@@ -145,6 +145,138 @@
           "用清水沖洗相機，打開任何蓋子前先擦乾。然後用相機廠商的 App，把影片複製到 iPhone 的「照片」App 或「檔案」App。"]}
       ],
       "cta": "運動相機拍的影片常常偏藍或偏綠。把影片複製到 iPhone，再從「照片」App 或「檔案」App 用 UnderBlue 開啟。UnderBlue 會讓整段影片的色彩保持穩定。"
+    },
+    "underwater-color-correction-apps": {
+      "published": "2026-11-11",
+      "title": "AquaColorFix、Dive+ 與 UnderBlue 比較：水下調色 App | UnderBlue",
+      "description": "比較三款還原水下照片色彩的 iPhone App：AquaColorFix、Dive+ 與 UnderBlue。功能、收費方式與隱私，皆來自 App Store 資訊。",
+      "h1": "AquaColorFix、Dive+ 與 UnderBlue：水下調色 App 比較",
+      "intro": [
+        "想修正偏藍或偏綠的水下照片時，很多潛水員會搜尋 AquaColorFix 或 Dive+。兩者都是熱門 App。",
+        "本頁把它們與我們的 App UnderBlue 做比較。我們只列出各自 App Store 頁面上的事實。"
+      ],
+      "sections": [
+        {
+          "h": "一覽",
+          "table": {
+            "head": [
+              "",
+              "AquaColorFix",
+              "Dive+",
+              "UnderBlue"
+            ],
+            "rows": [
+              [
+                "照片與影片",
+                "支援",
+                "支援",
+                "支援"
+              ],
+              [
+                "裝置",
+                "iPhone、iPad、Mac",
+                "iPhone、Mac（Apple 晶片）、Android",
+                "iPhone（Mac 版即將推出）"
+              ],
+              [
+                "帳號",
+                "不需要",
+                "未說明",
+                "不需要"
+              ],
+              [
+                "免費使用",
+                "照片無限量，含浮水印",
+                "一鍵調色。據使用者回報，每天有上限（約 8 張照片、2 段影片），非 VIP 會有浮水印。",
+                "3 張照片，之後每 24 小時 1 張照片與 1 段影片的前 10 秒，含浮水印"
+              ],
+              [
+                "付費方式",
+                "App 內購買：月付、年付或 Pro",
+                "VIP 訂閱：1 個月或 1 年",
+                "一次性購買"
+              ],
+              [
+                "處理位置",
+                "未說明",
+                "未說明",
+                "在 iPhone 本機處理，不上傳"
+              ],
+              [
+                "App Store 隱私權標籤",
+                "未收集資料",
+                "與你連結的資料：位置",
+                "未收集資料"
+              ],
+              [
+                "其他功能",
+                "手動滑桿、暗角",
+                "潛水社群、潛水日誌、潛點資訊",
+                "風格、自訂滑桿、RAW 匯入、HDR 輸出"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "AquaColorFix",
+          "p": [
+            "一鍵修正照片與影片的色彩。提供色相、曝光、陰影、黑點等多種手動滑桿。可在 iPhone、iPad 與 Mac 上使用。"
+          ],
+          "src": {
+            "label": "App Store 上的 AquaColorFix",
+            "href": "https://apps.apple.com/us/app/id1579618383"
+          }
+        },
+        {
+          "h": "Dive+",
+          "p": [
+            "內建調色功能的潛水社群 App。還提供潛水日誌、潛點搜尋與來自世界各地的潛伴。適合想用一個 App 管理日誌與照片的人。"
+          ],
+          "src": [
+            {
+              "label": "App Store 上的 Dive+",
+              "href": "https://apps.apple.com/us/app/id1251506403"
+            },
+            {
+              "label": "Google Play",
+              "href": "https://play.google.com/store/apps/details?id=com.lifeplus.diveplus"
+            }
+          ]
+        },
+        {
+          "h": "UnderBlue",
+          "p": [
+            "專為色彩打造。處理照片時，它會估算場景深度，對近處與遠處分別校正。影片保留原有的影格速率、音訊與 HDR。所有處理都在你的 iPhone 上完成。一次購買，不需訂閱。"
+          ]
+        },
+        {
+          "h": "該選哪一款？",
+          "ul": [
+            "想要社群與潛水日誌：Dive+。",
+            "現在用 iPad 或 Mac 編輯：AquaColorFix。",
+            "想要本機處理與一次性付費：UnderBlue。",
+            "拿不定主意？三款都能免費試用。用同一張照片分別調色，比較看看。"
+          ]
+        },
+        {
+          "h": "關於本比較",
+          "p": [
+            "資訊來自 2026 年 11 月 11 日的美國 App Store 與 Google Play 頁面。Dive+ 的每日上限來自使用者回報，而非商店頁面。App 會更新，請以商店的最新資訊為準。",
+            "AquaColorFix 與 Dive+ 是其各自所有者的商標。UnderBlue 與它們沒有關聯。"
+          ],
+          "src": [
+            {
+              "label": "ScubaBoard",
+              "href": "https://scubaboard.com/community/threads/dive-app.646014/"
+            },
+            {
+              "label": "Divernet",
+              "href": "https://divernet.com/scuba-gear/photo-editing-apps/"
+            }
+          ]
+        }
+      ],
+      "cta": "用你自己的潛水照片試試 UnderBlue。"
     }
   }
 }

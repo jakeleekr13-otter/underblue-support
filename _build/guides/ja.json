@@ -145,6 +145,138 @@
           "カメラを真水ですすぎ、カバーを開ける前に乾かします。そのあと、カメラメーカーのアプリを使って、クリップをiPhoneの「写真」または「ファイル」にコピーします。"]}
       ],
       "cta": "アクションカメラの映像は、青や緑に写ることがよくあります。クリップをiPhoneにコピーしたら、「写真」アプリまたは「ファイル」アプリからUnderBlueで開いてください。UnderBlueは、クリップ全体の色を安定させます。"
+    },
+    "underwater-color-correction-apps": {
+      "published": "2026-11-11",
+      "title": "AquaColorFix・Dive+・UnderBlue 比較：水中写真の色補正アプリ | UnderBlue",
+      "description": "水中写真の色を補正するiPhoneアプリ、AquaColorFix・Dive+・UnderBlueを比較します。機能、料金の仕組み、プライバシーをApp Storeの情報で整理しました。",
+      "h1": "AquaColorFix・Dive+・UnderBlue：水中色補正アプリの比較",
+      "intro": [
+        "青や緑になった水中写真を直したいとき、AquaColorFixやDive+を探すダイバーは多いです。どちらも人気のアプリです。",
+        "このページでは、2つのアプリを私たちのアプリUnderBlueと比べます。各App Storeページにある事実だけを載せています。"
+      ],
+      "sections": [
+        {
+          "h": "ひと目で比較",
+          "table": {
+            "head": [
+              "",
+              "AquaColorFix",
+              "Dive+",
+              "UnderBlue"
+            ],
+            "rows": [
+              [
+                "写真とビデオ",
+                "対応",
+                "対応",
+                "対応"
+              ],
+              [
+                "デバイス",
+                "iPhone、iPad、Mac",
+                "iPhone、Mac（Appleシリコン）、Android",
+                "iPhone（Mac版は近日公開）"
+              ],
+              [
+                "アカウント",
+                "不要",
+                "記載なし",
+                "不要"
+              ],
+              [
+                "無料で使える範囲",
+                "透かし入りで写真は無制限",
+                "ワンタップ補正。ユーザーの報告では1日の上限（写真約8枚、ビデオ2本）があり、VIPでないと透かしが入ります。",
+                "写真3枚、その後は24時間ごとに写真1枚とビデオ1本の最初の10秒。透かし入り"
+              ],
+              [
+                "有料プラン",
+                "App内課金：月額、年額またはPro",
+                "VIPサブスクリプション：1か月または1年",
+                "1回の購入"
+              ],
+              [
+                "処理の場所",
+                "記載なし",
+                "記載なし",
+                "iPhone上で処理、アップロードなし"
+              ],
+              [
+                "App Storeのプライバシー表示",
+                "データの収集なし",
+                "ユーザに関連付けられたデータ：位置情報",
+                "データの収集なし"
+              ],
+              [
+                "その他の機能",
+                "手動スライダー、周辺減光",
+                "ダイバーコミュニティ、ダイブログ、ポイント情報",
+                "ルック、カスタムスライダー、RAW読み込み、HDR書き出し"
+              ]
+            ]
+          }
+        },
+        {
+          "h": "AquaColorFix",
+          "p": [
+            "写真とビデオをワンタップで補正します。色相、露出、シャドウ、ブラックポイントなど、手動スライダーが豊富です。iPhone、iPad、Macで使えます。"
+          ],
+          "src": {
+            "label": "App StoreのAquaColorFix",
+            "href": "https://apps.apple.com/us/app/id1579618383"
+          }
+        },
+        {
+          "h": "Dive+",
+          "p": [
+            "色補正機能を備えたダイビングコミュニティアプリです。ダイブログ、ポイント検索、世界中のバディ機能もあります。ログと写真を1つのアプリで管理したい人に向いています。"
+          ],
+          "src": [
+            {
+              "label": "App StoreのDive+",
+              "href": "https://apps.apple.com/us/app/id1251506403"
+            },
+            {
+              "label": "Google Play",
+              "href": "https://play.google.com/store/apps/details?id=com.lifeplus.diveplus"
+            }
+          ]
+        },
+        {
+          "h": "UnderBlue",
+          "p": [
+            "色補正のためだけに作ったアプリです。写真では、シーンの奥行きを推定して、近い部分と遠い部分を別々に補正します。ビデオは元のフレームレート、音声、HDRを保ちます。処理はすべてiPhone上で行います。サブスクリプションはなく、購入は1回だけです。"
+          ]
+        },
+        {
+          "h": "どれを選べばいい？",
+          "ul": [
+            "コミュニティとダイブログがほしい：Dive+",
+            "今iPadやMacで編集している：AquaColorFix",
+            "端末内での処理と1回の購入がいい：UnderBlue",
+            "迷ったら：3つとも無料で試せます。同じ写真をそれぞれで補正して比べてみてください。"
+          ]
+        },
+        {
+          "h": "この比較について",
+          "p": [
+            "2026年11月11日時点の米国App StoreとGoogle Playのページをもとにしています。Dive+の1日の上限はストアページではなく、ユーザーの報告によるものです。アプリは変わることがあるので、最新の情報はストアで確認してください。",
+            "AquaColorFixとDive+は各所有者の商標です。UnderBlueはこれらと提携していません。"
+          ],
+          "src": [
+            {
+              "label": "ScubaBoard",
+              "href": "https://scubaboard.com/community/threads/dive-app.646014/"
+            },
+            {
+              "label": "Divernet",
+              "href": "https://divernet.com/scuba-gear/photo-editing-apps/"
+            }
+          ]
+        }
+      ],
+      "cta": "自分のダイビング写真でUnderBlueを試してみてください。"
     }
   }
 }
