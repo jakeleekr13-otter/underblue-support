@@ -24,7 +24,7 @@ APP_STORE = "https://apps.apple.com/app/id6815881625"
 SISTER_APP = "https://apps.apple.com/app/id6813368660"
 # The Mac app is a separate App Store record. Set its link when it is live;
 # the Mac section then shows a Mac App Store badge instead of "coming soon".
-MAC_APP_STORE = None
+MAC_APP_STORE = "https://apps.apple.com/app/id6824797138"
 ROOT = Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_build" / "guides"
 GUIDE_ORDER = ["underwater-photo-tips", "underwater-video-tips",
