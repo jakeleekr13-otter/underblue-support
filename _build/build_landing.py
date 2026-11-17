@@ -112,6 +112,129 @@ UI = {
 }
 
 
+MAC = {
+ "en": {
+  "mac_feats": [
+   "Batch queue: photos and videos together, in one run",
+   "Drop whole folders from Finder. Each result goes to the folder you choose.",
+   "Up to 4 photos at the same time",
+   "Before and after preview for each item",
+   "Natural Dive, Tropical and Deep Dive looks, plus a Custom look with five sliders",
+   "Original-resolution export, with 4K and HDR",
+   "Fully on-device. No account, no cloud upload."
+  ],
+  "mac_pro": "Free to try. UnderBlue Pro is a one-time purchase. It unlocks batch processing, full-length video and 4K and HDR export.",
+  "mac_req": "Requires macOS 26 or later and a Mac with Apple silicon (M1 or later).",
+  "mac_shots": [
+   "Before and after preview on Mac",
+   "Drop in a folder from Finder",
+   "Video correction on Mac",
+   "Looks and strength on Mac"
+  ]
+ },
+ "ko": {
+  "mac_feats": [
+   "배치 대기열: 사진과 영상을 한 번에 함께 보정",
+   "Finder에서 폴더째로 끌어다 놓기. 결과는 지정한 폴더에 저장",
+   "사진 최대 4장 동시 처리",
+   "항목마다 보정 전후 미리보기",
+   "Natural Dive, Tropical, Deep Dive 룩과 슬라이더 5개의 Custom 룩",
+   "원본 해상도로 내보내기 (4K, HDR 지원)",
+   "모든 처리는 Mac 안에서. 계정도, 클라우드 업로드도 없습니다."
+  ],
+  "mac_pro": "무료로 써 볼 수 있습니다. UnderBlue Pro는 한 번만 구입하면 되고, 배치 처리·전체 길이 영상·4K/HDR 내보내기가 열립니다.",
+  "mac_req": "macOS 26 이상, Apple silicon(M1 이상) Mac이 필요합니다.",
+  "mac_shots": [
+   "Mac에서 보정 전후 비교",
+   "Finder에서 폴더 끌어다 놓기",
+   "Mac에서 영상 보정",
+   "Mac에서 룩과 강도 선택"
+  ]
+ },
+ "ja": {
+  "mac_feats": [
+   "バッチキュー：写真とビデオを1回でまとめて補正",
+   "Finderからフォルダごとドロップ。結果は指定したフォルダに保存",
+   "写真を最大4枚同時に処理",
+   "項目ごとに補正前後をプレビュー",
+   "Natural Dive、Tropical、Deep Diveのルックと、5つのスライダーのCustomルック",
+   "元の解像度で書き出し（4K・HDR対応）",
+   "処理はすべてMac内で完結。アカウント不要、クラウドへのアップロードもありません。"
+  ],
+  "mac_pro": "無料でお試しいただけます。UnderBlue Proは買い切りです。バッチ処理、フルレングスのビデオ、4K・HDR書き出しが使えるようになります。",
+  "mac_req": "macOS 26以降と、Appleシリコン（M1以降）搭載のMacが必要です。",
+  "mac_shots": [
+   "Macでの補正前後の比較",
+   "Finderからフォルダをドロップ",
+   "Macでのビデオ補正",
+   "Macでのルックと強さの選択"
+  ]
+ },
+ "zh-hans": {
+  "mac_feats": [
+   "批量队列：照片和视频一次一起校正",
+   "从访达直接拖入整个文件夹，结果保存到你选择的文件夹",
+   "最多同时处理 4 张照片",
+   "每个项目都可预览校正前后",
+   "Natural Dive、Tropical、Deep Dive 风格，以及带 5 个滑块的 Custom 风格",
+   "以原始分辨率导出，支持 4K 和 HDR",
+   "全部在 Mac 本机处理。无需账户，不上传云端。"
+  ],
+  "mac_pro": "可免费试用。UnderBlue Pro 为一次性购买，解锁批量处理、完整长度视频以及 4K 和 HDR 导出。",
+  "mac_req": "需要 macOS 26 或更高版本，以及搭载 Apple 芯片（M1 或更新）的 Mac。",
+  "mac_shots": [
+   "在 Mac 上对比校正前后",
+   "从访达拖入文件夹",
+   "在 Mac 上校正视频",
+   "在 Mac 上选择风格和强度"
+  ]
+ },
+ "zh-hant": {
+  "mac_feats": [
+   "批次佇列：照片與影片一次一起校正",
+   "從 Finder 直接拖入整個資料夾，結果儲存到你選擇的資料夾",
+   "最多同時處理 4 張照片",
+   "每個項目都能預覽校正前後",
+   "Natural Dive、Tropical、Deep Dive 風格，以及有 5 個滑桿的 Custom 風格",
+   "以原始解析度輸出，支援 4K 與 HDR",
+   "全部在 Mac 本機處理。不需帳號，也不上傳雲端。"
+  ],
+  "mac_pro": "可免費試用。UnderBlue Pro 為一次性購買，解鎖批次處理、完整長度影片以及 4K 與 HDR 輸出。",
+  "mac_req": "需要 macOS 26 或以上版本，以及搭載 Apple 晶片（M1 或更新）的 Mac。",
+  "mac_shots": [
+   "在 Mac 上比較校正前後",
+   "從 Finder 拖入資料夾",
+   "在 Mac 上校正影片",
+   "在 Mac 上選擇風格與強度"
+  ]
+ },
+ "es": {
+  "mac_feats": [
+   "Cola por lotes: fotos y vídeos juntos, en una sola pasada",
+   "Arrastra carpetas enteras desde el Finder. Cada resultado se guarda en la carpeta que elijas.",
+   "Hasta 4 fotos a la vez",
+   "Vista previa de antes y después para cada archivo",
+   "Estilos Natural Dive, Tropical y Deep Dive, más un estilo Custom con cinco controles",
+   "Exportación a resolución original, con 4K y HDR",
+   "Todo se procesa en tu Mac. Sin cuenta y sin subir nada a la nube."
+  ],
+  "mac_pro": "Pruébala gratis. UnderBlue Pro es un pago único. Desbloquea el procesamiento por lotes, el vídeo completo y la exportación en 4K y HDR.",
+  "mac_req": "Requiere macOS 26 o posterior y un Mac con chip de Apple (M1 o posterior). La app de Mac está en inglés.",
+  "mac_shots": [
+   "Antes y después en Mac",
+   "Arrastra una carpeta desde el Finder",
+   "Corrección de vídeo en Mac",
+   "Estilos e intensidad en Mac"
+  ]
+ }
+}
+for _k, _v in MAC.items():
+    UI[_k].update(_v)
+    UI[_k]["mac_link"] = {"en": "Also on Mac: fix a whole dive in one batch →", "ko": "Mac 버전도 있어요: 다이빙 한 번 분량을 한꺼번에 →", "ja": "Mac版も：1回のダイビングをまとめて補正 →", "zh-hans": "也有 Mac 版：一次批量校正整次潜水 →", "zh-hant": "也有 Mac 版：一次批次校正整趟潛水 →", "es": "También en Mac: corrige toda una inmersión en un lote →"}[_k]
+
+MAC_SHOTS = ["02-before-after", "03-folders", "04-video", "05-looks"]
+
+
 def section(md, heading):
     m = re.search(rf"^## {re.escape(heading)}\n(.*?)(?=^## |\Z)", md, re.S | re.M)
     assert m, f"missing section: {heading}"
@@ -200,6 +323,11 @@ def page(loc, md, captions, guides):
                      'width="220" height="55" alt="Download on the Mac App Store"></a>')
     else:
         mac_h, mac_badge = f'{ui["mac_name"]} — {ui["soon"]}', ""
+    mac_feats = "\n".join(f"      <li>{e(t)}</li>" for t in ui["mac_feats"])
+    mac_shots = "\n".join(
+        f'      <li><img src="{up}assets/mac/{f}.jpg" width="1200" height="750" loading="lazy" alt="{e(a)}"></li>'
+        for f, a in zip(MAC_SHOTS, ui["mac_shots"])
+    )
     guides_html = ""
     if key in guides:
         gui = guides[key]["ui"]
@@ -251,6 +379,7 @@ def page(loc, md, captions, guides):
   <section class="hero">
     <h1>{e(subtitle)}</h1>
     <p class="lead">{e(promo)}</p>
+    <p class="mac-link"><a href="#mac">{e(ui["mac_link"])}</a></p>
     <img class="hero-img" src="{up}assets/hero.jpg" width="1600" height="960" alt="{e(alts[0])}">
   </section>
 
@@ -278,10 +407,18 @@ def page(loc, md, captions, guides):
     <p class="muted small">{e(note)}</p>
   </section>
 
-  <section class="card mac">
+  <section class="card mac" id="mac">
     <h2>{e(mac_h)}</h2>
-    <p>{e(ui["mac_p"])}</p>{mac_badge}
+    <p class="lead">{e(ui["mac_p"])}</p>
     <img src="{up}assets/mac-batch.jpg" width="1200" height="750" loading="lazy" alt="{e(ui["mac_alt"])}">
+    <ul class="mac-feats">
+{mac_feats}
+    </ul>
+    <ul class="mac-shots">
+{mac_shots}
+    </ul>
+    <p>{e(ui["mac_pro"])}</p>{mac_badge}
+    <p class="muted small">{e(ui["mac_req"])}</p>
   </section>
 
   <section class="card sister">
