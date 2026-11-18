@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 320">
+<defs>
+<linearGradient id="bl" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4fb3c9"/><stop offset="1" stop-color="#0b4a5c"/></linearGradient>
+<linearGradient id="nt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8ee6e0"/><stop offset=".5" stop-color="#2f9fbd"/><stop offset="1" stop-color="#11506b"/></linearGradient>
+<clipPath id="c"><rect width="640" height="320" rx="28"/></clipPath>
+<clipPath id="l"><rect width="320" height="320"/></clipPath>
+<clipPath id="r"><rect x="320" width="320" height="320"/></clipPath>
+<g id="scene">
+<path d="M0 282Q160 258 320 280T640 272V320H0z"/>
+<g transform="translate(320 160)"><path d="M50 0L84-28V28z"/><path d="M-14-30q16-24 34 0z"/><ellipse rx="60" ry="34"/></g>
+<path d="M150 290V230M150 258L128 234M150 248l20-26" fill="none" stroke-width="12" stroke-linecap="round"/>
+<path d="M500 292q-14-22 0-44t0-44" fill="none" stroke-width="9" stroke-linecap="round"/>
+</g>
+</defs>
+<g clip-path="url(#c)">
+<g clip-path="url(#l)"><rect width="640" height="320" fill="url(#bl)"/><use href="#scene" fill="#3f8a8c" stroke="#3f8a8c"/></g>
+<g clip-path="url(#r)"><rect width="640" height="320" fill="url(#nt)"/><use href="#scene" fill="#ff8c42" stroke="#ff7f6e"/><path d="M0 282Q160 258 320 280T640 272V320H0z" fill="#e9d3a1"/></g>
+<circle cx="300" cy="152" r="7" fill="#fff"/><circle cx="299" cy="152" r="4" fill="#10262d"/>
+<rect x="317" width="6" height="320" fill="#fff"/>
+<circle cx="320" cy="160" r="22" fill="#fff"/><path d="M310 160l-7 0M330 160l7 0M306 154l-6 6 6 6M334 154l6 6-6 6" stroke="#10262d" stroke-width="3" fill="none" stroke-linecap="round"/>
+</g>
+</svg>

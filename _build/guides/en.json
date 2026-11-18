@@ -148,12 +148,12 @@
     },
     "underwater-color-correction-apps": {
       "published": "2026-11-11",
-      "title": "AquaColorFix vs Dive+ vs UnderBlue: Underwater Color Apps Compared | UnderBlue",
-      "description": "A fair comparison of three iPhone apps that fix underwater color: AquaColorFix, Dive+ and UnderBlue. Features, pricing model and privacy, from the App Store.",
-      "h1": "AquaColorFix, Dive+ and UnderBlue: underwater color apps compared",
+      "title": "Best Underwater Color Correction Apps (2026): 6 Compared | UnderBlue",
+      "description": "Six apps and web tools that fix blue and green underwater photos and videos. Devices, prices, free limits and privacy, from each store page or official site.",
+      "h1": "Underwater color correction apps compared (2026)",
       "intro": [
-        "Many divers search for AquaColorFix or Dive+ when they want to fix blue or green photos. Both are popular apps.",
-        "This page compares them with UnderBlue, our app. We list only facts from each App Store page."
+        "Many apps can fix blue or green underwater photos. They differ in price, devices and privacy.",
+        "This page compares six of them. One is UnderBlue, our app. We list only facts from each App Store page or official website."
       ],
       "sections": [
         {
@@ -161,58 +161,76 @@
           "table": {
             "head": [
               "",
+              "UnderBlue",
               "AquaColorFix",
               "Dive+",
-              "UnderBlue"
+              "DeepColors",
+              "DiveClick",
+              "Aqura FX"
             ],
             "rows": [
               [
+                "Devices",
+                "iPhone; Mac (separate app)",
+                "iPhone, iPad, Mac",
+                "iPhone, Mac (Apple silicon), Android",
+                "iPhone, iPad, Mac",
+                "iPhone, Mac (Apple silicon)",
+                "Web browser"
+              ],
+              [
                 "Photos and videos",
+                "Yes",
+                "Yes",
+                "Yes",
                 "Yes",
                 "Yes",
                 "Yes"
               ],
               [
-                "Devices",
-                "iPhone, iPad, Mac",
-                "iPhone, Mac (Apple silicon), Android",
-                "iPhone (Mac coming soon)"
+                "Price (US)",
+                "Free with limits. Pro, one-time: $14.99 on iPhone, $19.99 on Mac",
+                "Free with a watermark. Pro: $3.99 a month, $14.99 a year or $34.99",
+                "Free with limits. Subscriptions from $3.99 a month or $22.99 a year",
+                "Free with a watermark. Premium: $5.99 a month, $9.99 for 6 months or $14.99 a year",
+                "Free with a watermark. $5.99 a month or $35.90 a year",
+                "Free. No paid plan"
+              ],
+              [
+                "Free use",
+                "iPhone: 3 photos, then 1 photo and a 10-second video clip every 24 hours, with a watermark. Mac: 1 photo and one 10-second video",
+                "Unlimited photos with a watermark",
+                "One-tap correction. Users report a daily limit and a watermark without VIP",
+                "Exports have a watermark",
+                "Exports have a watermark",
+                "No limits and no watermark (website)"
+              ],
+              [
+                "Processing",
+                "On your device, no upload",
+                "Not stated",
+                "Not stated",
+                "On your device, no upload (website)",
+                "Not stated",
+                "In your browser, no upload (website)"
               ],
               [
                 "Account",
                 "Not required",
+                "Not required",
+                "Not stated",
+                "Not required (website)",
                 "Not stated",
                 "Not required"
               ],
               [
-                "Free use",
-                "Unlimited photos with a watermark",
-                "One-tap correction. Users report a daily limit (about 8 photos and 2 videos) and a watermark without VIP.",
-                "3 photos, then 1 photo and a 10-second video clip every 24 hours, with a watermark"
-              ],
-              [
-                "Price (US App Store)",
-                "Free with a watermark. Pro: $3.99 a month, $14.99 a year, or $34.99 lifetime",
-                "Free with limits. VIP: $3.99 a month or $22.99 a year; other plans are also listed",
-                "Free with a watermark. UnderBlue Pro: $14.99, one-time purchase"
-              ],
-              [
-                "Processing",
-                "Not stated",
-                "Not stated",
-                "On your iPhone, no upload"
-              ],
-              [
                 "App Store privacy label",
+                "Data Not Linked to You: photos or videos, diagnostics",
                 "Data Not Collected",
                 "Data Linked to You: location",
-                "Data Not Collected"
-              ],
-              [
-                "Other features",
-                "Manual sliders, vignette",
-                "Diver community, dive log, dive-site info",
-                "Looks, Custom sliders, RAW import, HDR export"
+                "Data Not Collected",
+                "Data Not Collected",
+                "No App Store app"
               ]
             ]
           }
@@ -220,10 +238,11 @@
         {
           "h": "Why UnderBlue",
           "ul": [
-            "Pay once, no subscription: UnderBlue Pro is $14.99, once. Dive+ VIP is a subscription that renews every month or year, so you keep paying. The AquaColorFix lifetime plan is $34.99.",
-            "Private by design: everything runs on your iPhone. No account, no upload. The App Store label says Data Not Collected.",
+            "Pay once, no subscription: UnderBlue Pro is $14.99 on iPhone and $19.99 on Mac, paid once.",
+            "Private by design: photos and videos are processed on your iPhone or Mac. No account, no upload.",
             "Made only for color: photos get depth-aware correction. Pick a look, then fine-tune it with Custom sliders.",
-            "Video stays intact: frame rate, audio and HDR are kept. UnderBlue Pro exports full-length and 4K video.",
+            "Video stays intact: frame rate and audio are kept. UnderBlue Pro exports full-length and 4K video.",
+            "A whole dive at once on Mac: drop in a folder of photos and videos and correct them in one batch.",
             "Free to try: no sign-up needed."
           ]
         },
@@ -240,7 +259,7 @@
         {
           "h": "Dive+",
           "p": [
-            "A diving community app with a color fix built in. You also get dive logs, dive-site search and buddies from around the world. Good if you want one app for logs and photos. Full use needs a VIP subscription, paid every month or every year."
+            "A diving community app with a color fix built in. You also get dive logs, dive-site search and buddies from around the world. Good if you want one app for logs and photos. Full use needs a paid plan."
           ],
           "src": [
             {
@@ -254,25 +273,69 @@
           ]
         },
         {
+          "h": "DeepColors",
+          "p": [
+            "An automatic color fix for photos and video, with keyframes for video grading. Premium adds 4K, HDR and ProRes export and LUT export. It is a subscription."
+          ],
+          "src": [
+            {
+              "label": "DeepColors on the App Store",
+              "href": "https://apps.apple.com/us/app/id6742382504"
+            },
+            {
+              "label": "DeepColors website",
+              "href": "https://deepcolors.app/"
+            }
+          ]
+        },
+        {
+          "h": "DiveClick",
+          "p": [
+            "One-tap presets made by underwater photographers, with simple controls for warmth, tint, exposure, contrast and saturation. Exports without a watermark need a subscription."
+          ],
+          "src": [
+            {
+              "label": "DiveClick on the App Store",
+              "href": "https://apps.apple.com/us/app/id6748377039"
+            },
+            {
+              "label": "DiveClick website",
+              "href": "https://diveclick.app/"
+            }
+          ]
+        },
+        {
+          "h": "Aqura FX",
+          "p": [
+            "A free web tool. It runs in the browser on a phone or computer, so there is nothing to install. It can batch a whole dive to a ZIP file and export video with sound."
+          ],
+          "src": {
+            "label": "Aqura FX website",
+            "href": "https://www.aquariusredsea.com/aqura-fx/"
+          }
+        },
+        {
           "h": "UnderBlue",
           "p": [
-            "Made only for color. For photos, it estimates depth in the scene and corrects near and far parts differently. Videos keep their frame rate, audio and HDR. Everything runs on your iPhone. It is free to try. UnderBlue Pro costs $14.99, paid once, with no subscription."
+            "Made only for color. For photos, it estimates depth in the scene and corrects near and far parts differently. Videos keep their frame rate and audio. Processing stays on your device. The iPhone app and the Mac app are separate. The Mac app corrects a whole folder in one batch. Both are free to try. UnderBlue Pro is paid once, with no subscription."
           ]
         },
         {
           "h": "Which one should you choose?",
           "ul": [
-            "You just want natural color back: choose UnderBlue. It is made only for color and runs on your iPhone. Start free, then pay once: $14.99 for UnderBlue Pro.",
+            "You want natural color back and no subscription: UnderBlue.",
+            "You want to fix a whole dive on a computer: UnderBlue for Mac, or Aqura FX in the browser.",
             "You want a community and a dive log, and a subscription is fine: Dive+.",
-            "You edit on iPad or Mac today: AquaColorFix.",
+            "You edit on iPad: AquaColorFix or DeepColors.",
+            "You want video grading with keyframes and LUT export: DeepColors.",
             "Not sure? Start with UnderBlue. It is free to try."
           ]
         },
         {
           "h": "About this comparison",
           "p": [
-            "Facts come from the US App Store and Google Play pages on 11 November 2026. The Dive+ daily limit comes from user reports, not from the store page. Apps change, so check the store for the latest.",
-            "AquaColorFix and Dive+ are trademarks of their owners. UnderBlue is not affiliated with them."
+            "Facts come from the US App Store pages and the official websites on 18 November 2026. Facts marked (website) come from the app's own website. Privacy labels are reported by each developer and are not checked by Apple. The Dive+ daily limit comes from user reports, not from the store page. Apps change, so check the store for the latest.",
+            "AquaColorFix, Dive+, DeepColors, DiveClick and Aqura FX are trademarks of their owners. UnderBlue is not affiliated with them."
           ],
           "src": [
             {
@@ -286,7 +349,126 @@
           ]
         }
       ],
-      "cta": "Try UnderBlue on your own dive photos."
+      "cta": "Try UnderBlue on your own dive photos.",
+      "modified": "2026-11-18"
+    },
+    "fix-blue-green-underwater-photos": {
+      "published": "2026-11-18",
+      "title": "How to Fix Blue and Green Underwater Photos | UnderBlue",
+      "description": "Why underwater photos turn blue or green, and how to fix them. What to do during the dive, how to edit the color after, and a quick fix with an app.",
+      "h1": "How to fix blue and green underwater photos",
+      "intro": [
+        "Most underwater photos come out blue or green. This is normal. Water changes the light before it reaches the camera.",
+        "This guide explains why it happens and how to fix it, during the dive and after it."
+      ],
+      "sections": [
+        {
+          "h": "Why photos turn blue or green",
+          "p": [
+            "Water absorbs red light first, then orange and yellow. Blue and green light travel further. So the deeper you go, and the further the subject is from the camera, the bluer the photo.",
+            "Green water often has plankton or algae in it. It makes the cast greener and the image softer.",
+            "Small particles in the water also reflect light back to the lens. This shows as haze or white specks, called backscatter."
+          ]
+        },
+        {
+          "h": "During the dive: keep more color",
+          "ul": [
+            "Get close. Less water between the lens and the subject means more color.",
+            "Shoot in shallow water when you can. There is more red light near the surface.",
+            "Keep the sun behind you on sunny days.",
+            "Use a light or strobe for close subjects. Point it to the side, not straight ahead, to reduce backscatter.",
+            "A red filter on a phone or action camera can help in blue water at shallow depth."
+          ]
+        },
+        {
+          "h": "After the dive: fix the color",
+          "p": [
+            "Most photo editors can fix a blue or green cast. Work in this order:"
+          ],
+          "ul": [
+            "White balance first. Use the eyedropper on something that should be white or gray, like sand or a tank.",
+            "If the photo is still blue, add warmth. If it is still green, add magenta.",
+            "Raise contrast a little. Water makes images flat.",
+            "Add saturation last, and only a little. Too much makes skin and coral look fake.",
+            "Shoot RAW if your camera can. RAW keeps more color to work with."
+          ]
+        },
+        {
+          "h": "A faster way: fix it with an app",
+          "p": [
+            "Manual editing works, but it takes time for every photo. A color correction app does it in one step.",
+            "With UnderBlue, you pick a photo or video, choose a look and compare it with the original. You can set the strength or fine-tune the color with Custom sliders. On a Mac, you can correct a whole dive in one batch."
+          ]
+        },
+        {
+          "h": "When a photo cannot be fully fixed",
+          "p": [
+            "Some photos are too far gone. If the subject was far away in murky water, the red is almost gone. An editor or app can improve it, but not make it look like a photo taken close up. Next time, get closer."
+          ]
+        }
+      ],
+      "cta": "A blue photo is not lost. Try UnderBlue on your own dive photos."
+    },
+    "batch-underwater-photos-mac": {
+      "published": "2026-11-18",
+      "app": "mac",
+      "title": "Fix the Color of a Whole Dive on Mac, in One Batch | UnderBlue",
+      "description": "Correct the color of many underwater photos and videos on your Mac at once. Drag in a folder, pick a look and press Correct. On-device, no account.",
+      "h1": "Fix the color of a whole dive on your Mac, in one batch",
+      "intro": [
+        "After a dive trip you may have hundreds of blue photos and many videos. Fixing them one by one takes hours.",
+        "UnderBlue for Mac corrects a whole folder at once. This guide shows how."
+      ],
+      "sections": [
+        {
+          "h": "What you need",
+          "ul": [
+            "A Mac with Apple silicon (M1 or later) and macOS 26 or later.",
+            "UnderBlue for Mac from the Mac App Store. It is a separate app from UnderBlue for iPhone.",
+            "Your dive photos and videos in a folder."
+          ]
+        },
+        {
+          "h": "Step 1: Add your files",
+          "p": [
+            "Drag files or whole folders from Finder into UnderBlue. Photos and videos can go in the same queue."
+          ]
+        },
+        {
+          "h": "Step 2: Pick a look",
+          "p": [
+            "Choose Natural Dive, Tropical or Deep Dive. Or use Custom and set five sliders yourself. Check the before and after preview for any item."
+          ]
+        },
+        {
+          "h": "Step 3: Correct and save",
+          "p": [
+            "Choose the folder for the results, then press Correct. UnderBlue works through the queue and saves each result there. Your original files are not changed."
+          ]
+        },
+        {
+          "h": "Tips for a big batch",
+          "ul": [
+            "Sort by depth or by dive. Shallow and deep photos often look best with different looks.",
+            "Try the look on a few files first. Then run the whole folder.",
+            "Keep the originals. You can run them again with another look later."
+          ]
+        },
+        {
+          "h": "Free and Pro",
+          "p": [
+            "You can try one photo export and one 10-second video for free. UnderBlue Pro is a one-time purchase of $19.99 on the US Mac App Store. It unlocks batch processing, unlimited photos, full-length video and supported 4K and HDR export."
+          ]
+        },
+        {
+          "h": "Private by design",
+          "p": [
+            "Processing stays on your Mac. There is no account and no cloud upload."
+          ]
+        }
+      ],
+      "cta": "Fix a whole dive in one batch with UnderBlue for Mac.",
+      "cta_p": "UnderBlue for Mac corrects the color of underwater photos and videos in one batch. Drag in a folder, pick a look and press Correct. Processing stays on your Mac. You can try it for free."
     }
   }
 }

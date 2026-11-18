@@ -33,7 +33,8 @@ ROOT = Path(__file__).resolve().parent.parent
 GUIDES_DIR = ROOT / "_build" / "guides"
 GUIDE_ORDER = ["underwater-photo-tips", "underwater-video-tips",
                "smartphone-underwater-housing", "action-camera-underwater",
-               "underwater-color-correction-apps"]
+               "underwater-color-correction-apps", "fix-blue-green-underwater-photos",
+               "batch-underwater-photos-mac"]
 
 # key: url dir, html lang, metadata name, captions.json key, og locale
 LOCALES = [
@@ -448,6 +449,13 @@ def guide_page(loc, slug, guides):
     path = f"{rel}guides/{slug}/"
     url = f"{SITE}/{path}"
     up = "../" * path.count("/")
+    # A guide with "app": "mac" sends its call to action to the Mac App Store.
+    if g.get("app") == "mac":
+        cta_badge = (f'<a class="badge" href="{MAC_APP_STORE}"><img src="{up}assets/badges/mac-{key}.svg" '
+                     'width="220" height="55" alt="Download on the Mac App Store"></a>')
+    else:
+        cta_badge = (f'<a class="badge" href="{APP_STORE}"><img src="{up}assets/badges/{key}.svg" '
+                     'width="180" height="60" alt="Download on the App Store"></a>')
     have = [l for l in LOCALES if l[0] in guides and slug in guides[l[0]]["guides"]]
     alternates = "\n".join(
         f'  <link rel="alternate" hreflang="{l[2]}" href="{SITE}/{l[1]}guides/{slug}/">' for l in have
@@ -547,8 +555,8 @@ def guide_page(loc, slug, guides):
   <section class="card cta">
     <h2>{e(ui["cta_h"])}</h2>
     <p>{e(g["cta"])}</p>
-    <p>{e(ui["cta_p"])}</p>
-    <a class="badge" href="{APP_STORE}"><img src="{up}assets/badges/{key}.svg" width="180" height="60" alt="Download on the App Store"></a>
+    <p>{e(g.get("cta_p", ui["cta_p"]))}</p>
+    {cta_badge}
     <img class="cta-img" src="{up}assets/hero.jpg" width="1600" height="960" loading="lazy" alt="{e(ui["hero_alt"])}">
   </section>
   </article>
