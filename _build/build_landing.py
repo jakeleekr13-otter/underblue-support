@@ -19,8 +19,10 @@ import re
 import sys
 from pathlib import Path
 
-# UNDERBLUE_SITE builds a copy for another host, e.g. https://underblue.enheart.me (Jake, 17 Nov 2026).
-SITE = os.environ.get("UNDERBLUE_SITE", "https://jakeleekr13-otter.github.io/underblue-support").rstrip("/")
+# The main site is https://underblue.enheart.me (Jake, 18 Nov 2026).
+# This github.io copy uses the same canonical, hreflang and sitemap URLs.
+# UNDERBLUE_SITE can set another address.
+SITE = os.environ.get("UNDERBLUE_SITE", "https://underblue.enheart.me").rstrip("/")
 APP_STORE = "https://apps.apple.com/app/id6815881625"
 # A sister app by the same seller (Enheart), linked from every landing page (Jake, 5 Nov 2026).
 SISTER_APP = "https://apps.apple.com/app/id6813368660"
