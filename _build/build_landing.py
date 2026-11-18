@@ -54,7 +54,7 @@ EN_CAPTIONS = ["Bring back the real colour.", "Reef colour, restored.", "Video, 
 
 UI = {
     "en": {
-        "title": "UnderBlue — Underwater Photo & Video Color Correction for iPhone",
+        "title": "UnderBlue — Underwater Photo & Video Color Correction for iPhone & Mac",
         "mac_name": "UnderBlue for Mac", "soon": "coming soon",
         "mac_p": "Fix a whole dive in one batch. Photos and videos together, on your Mac.",
         "mac_alt": "UnderBlue for Mac correcting a batch of dive photos and videos",
@@ -64,7 +64,7 @@ UI = {
         "sister_h": "Also by Enheart", "sister_p": "a dive logbook for scuba divers and freedivers.",
     },
     "ko": {
-        "title": "UnderBlue — 수중 사진·영상 색보정 앱 (iPhone)",
+        "title": "UnderBlue — 수중 사진·영상 색보정 앱 (iPhone·Mac)",
         "mac_name": "Mac 버전", "soon": "출시 예정",
         "mac_p": "다이빙 한 번의 사진과 영상을 Mac에서 한꺼번에 보정하세요.",
         "mac_alt": "여러 다이빙 사진과 영상을 한 번에 보정하는 Mac용 UnderBlue",
@@ -74,7 +74,7 @@ UI = {
         "sister_h": "Enheart의 다른 앱", "sister_p": "스쿠버 다이버와 프리다이버를 위한 다이브 로그북입니다.",
     },
     "ja": {
-        "title": "UnderBlue — 水中写真・水中動画の色補正アプリ（iPhone）",
+        "title": "UnderBlue — 水中写真・水中動画の色補正アプリ（iPhone・Mac）",
         "mac_name": "Mac版", "soon": "近日公開",
         "mac_p": "1回のダイビングの写真とビデオを、Macでまとめて補正できます。",
         "mac_alt": "ダイビングの写真とビデオをまとめて補正するMac版UnderBlue",
@@ -84,7 +84,7 @@ UI = {
         "sister_h": "Enheartのほかのアプリ", "sister_p": "スクーバダイバーとフリーダイバーのためのダイブログブックです。",
     },
     "zh-hans": {
-        "title": "UnderBlue — 水下照片与视频色彩校正 App（iPhone）",
+        "title": "UnderBlue — 水下照片与视频色彩校正 App（iPhone 与 Mac）",
         "mac_name": "Mac 版", "soon": "即将推出",
         "mac_p": "在 Mac 上一次批量校正整次潜水的照片和视频。",
         "mac_alt": "在 Mac 上批量校正潜水照片和视频的 UnderBlue",
@@ -94,7 +94,7 @@ UI = {
         "sister_h": "Enheart 的其他应用", "sister_p": "为水肺潜水员和自由潜水员打造的潜水日志。",
     },
     "zh-hant": {
-        "title": "UnderBlue — 水下照片與影片色彩校正 App（iPhone）",
+        "title": "UnderBlue — 水下照片與影片色彩校正 App（iPhone 與 Mac）",
         "mac_name": "Mac 版", "soon": "即將推出",
         "mac_p": "在 Mac 上一次批次校正整趟潛水的照片與影片。",
         "mac_alt": "在 Mac 上批次校正潛水照片與影片的 UnderBlue",
@@ -104,7 +104,7 @@ UI = {
         "sister_h": "Enheart 的其他 App", "sister_p": "為水肺潛水員與自由潛水員打造的潛水日誌。",
     },
     "es": {
-        "title": "UnderBlue — Corrige el color de tus fotos y vídeos submarinos (iPhone)",
+        "title": "UnderBlue — Corrige el color de tus fotos y vídeos submarinos (iPhone y Mac)",
         "mac_name": "UnderBlue para Mac", "soon": "muy pronto",
         "mac_p": "Corrige toda una inmersión en un solo lote. Fotos y vídeos juntos, en tu Mac.",
         "mac_alt": "UnderBlue para Mac corrigiendo un lote de fotos y vídeos de buceo",
@@ -311,7 +311,7 @@ def page(loc, md, captions, guides):
     )
     ld = {
         "@context": "https://schema.org", "@type": "SoftwareApplication",
-        "name": "UnderBlue", "operatingSystem": "iOS", "applicationCategory": "MultimediaApplication",
+        "name": "UnderBlue", "operatingSystem": "iOS, macOS", "applicationCategory": "MultimediaApplication",
         "description": promo, "url": url, "image": f"{SITE}/assets/og.jpg", "inLanguage": lang,
         "installUrl": APP_STORE, "offers": {"@type": "Offer", "price": "0", "priceCurrency": "USD"},
     }
@@ -468,7 +468,7 @@ def guide_page(loc, slug, guides):
         "dateModified": g.get("modified", data.get("modified", g.get("published", data["published"]))),
         "author": {"@type": "Organization", "name": "Enheart"},
         "publisher": {"@type": "Organization", "name": "Enheart"},
-        "about": {"@type": "SoftwareApplication", "name": "UnderBlue", "operatingSystem": "iOS",
+        "about": {"@type": "SoftwareApplication", "name": "UnderBlue", "operatingSystem": "iOS, macOS",
                   "applicationCategory": "MultimediaApplication", "installUrl": APP_STORE},
     }
 
